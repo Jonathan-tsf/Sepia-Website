@@ -1,0 +1,1 @@
+const s="/Sepia-web/assets/appstore-light-63Ci5AIa.svg",a="/Sepia-web/assets/appstore-dark-N4wKewe2.svg",e="/Sepia-web/assets/googleplay-light-J58qR6OW.svg",t="/Sepia-web/assets/googleplay-dark-Cy59a_4d.svg";export{s as _,a,e as b,t as c};
