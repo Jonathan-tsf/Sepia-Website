@@ -17,29 +17,16 @@ Revolutionizing Restaurant Service with Olivia
           </b-col>
 
           <!-- Layer parallax -->
-          <Parallax custom-class="parallax mt-4 ms-4 me-lg-0 ms-lg-n5 ms-xl-n3 mt-lg-n4">
-            <div class="parallax-layer" data-depth="0.1">
-              <img :src="layer1Img" width="1416" alt="Layer" />
-            </div>
-            <div class="parallax-layer zindex-2" data-depth="0.15">
-              <img :src="layer2Img" alt="Layer" />
-            </div>
-            <div class="parallax-layer zindex-2" data-depth="0.35">
-              <img :src="layer3Img" alt="Layer" />
-            </div>
-            <div class="parallax-layer zindex-2" data-depth="0.25">
-              <img :src="layer4Img" alt="Layer" />
-            </div>
-            <div class="parallax-layer zindex-2" data-depth="0.4">
-              <img :src="layer5Img" alt="Layer" />
-            </div>
-            <div class="parallax-layer zindex-2" data-depth="0.28">
-              <img :src="layer6Img" alt="Layer" />
-            </div>
-            <div class="parallax-layer zindex-2" data-depth="0.35">
-              <img :src="layer7Img" alt="Layer" />
-            </div>
-          </Parallax>
+                  <b-col sm="6" cols="9" class="order-md-2 order-1">
+          <Vue3Lottie
+            class="mx-auto"
+            background-color="transparent"
+            :speed="0.5"
+            loop
+            autoplay
+            :animation-data="fleche"
+          />
+        </b-col>
         </b-row>
       </b-container>
     </section>
@@ -47,16 +34,9 @@ Revolutionizing Restaurant Service with Olivia
 </template>
 
 <script setup lang="ts">
+import fleche from '@/assets/json/fleche.json'
 import brands7Img from '@/assets/img/brands/07.svg'
 import brands4Img from '@/assets/img/brands/04.svg'
 import brands2Img from '@/assets/img/brands/02.svg'
 import brands5Img from '@/assets/img/brands/05.svg'
-import layer1Img from '@/assets/img/landing/saas-1/hero/layer01.png'
-import layer2Img from '@/assets/img/landing/saas-1/hero/layer02.png'
-import layer3Img from '@/assets/img/landing/saas-1/hero/layer03.png'
-import layer4Img from '@/assets/img/landing/saas-1/hero/layer04.png'
-import layer5Img from '@/assets/img/landing/saas-1/hero/layer05.png'
-import layer6Img from '@/assets/img/landing/saas-1/hero/layer06.png'
-import layer7Img from '@/assets/img/landing/saas-1/hero/layer07.png'
-import Parallax from '@/components/Parallax.vue'
 </script>

@@ -6,7 +6,7 @@
         <b-row class="justify-content-center text-center pt-4 pb-sm-2 py-lg-5">
           <b-col xl="8" lg="9" md="10" class="py-5">
             <h1 class="display-4 text-light pt-sm-2 pb-1 pb-sm-3 mb-3">
-              Your Resume Assistant You Gonna Love
+              The Resume Assistant You're Gonna Love
             </h1>
             <p class="fs-lg text-light opacity-70 pb-2 pb-sm-0 mb-4 mb-sm-5">
              Introducing a pioneering approach to resume creation. With Riley, craft your professional CV through an interactive chatbot experience. Design, tailor, and perfect your resume effortlessly, all within one intuitive platform!

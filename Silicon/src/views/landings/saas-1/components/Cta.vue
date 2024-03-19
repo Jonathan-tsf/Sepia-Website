@@ -5,7 +5,6 @@
         <b-col xl="6" lg="7" md="8" sm="10" class="text-center">
           <h2 class="h1 text-light mb-4">Ready to Get Started?</h2>
           <p class="fs-lg text-light opacity-70 pb-4 mb-3">
-            Organize your tasks with a 14-day free trial
           </p>
 
           <!-- Desktop form -->
@@ -23,7 +22,7 @@
             <div class="invalid-tooltip position-absolute top-100 start-0">
               Please provide a valid email address.
             </div>
-            <b-button type="submit" variant="primary">Get started for free</b-button>
+            <b-button type="submit" variant="primary">Get started</b-button>
           </b-form>
 
           <!-- Mobile form -->
@@ -47,10 +46,9 @@
                 >Please provide a valid email address.</b-form-invalid-feedback
               >
             </div>
-            <button type="submit" class="btn btn-primary btn-lg w-100">Get started for free</button>
+            <button type="submit" class="btn btn-primary btn-lg w-100">Get started</button>
           </b-form>
           <p class="fs-sm text-light opacity-50 mb-0">
-            No subscriptions. No annual fees. No lock-ins.
           </p>
         </b-col>
       </b-row>
