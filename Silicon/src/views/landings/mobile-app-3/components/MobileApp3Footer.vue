@@ -5,8 +5,8 @@
         <b-col lg="5" xl="4" class="mb-4 mb-md-5 mb-lg-0">
           <div class="d-flex align-items-center pb-3 mb-1">
             <div class="navbar-brand text-dark p-0 pe-1 me-0">
-              <img :src="logoImg" width="47" alt="Silicon" />
-              Silicon
+              <img :src="logoImg" width="47" alt="Sépia" />
+              Sépia
             </div>
             <hr class="vr mt-2 mx-3" style="height: 26px" />
             <div class="text-white fw-semibold ps-1">Banking made easy.</div>
@@ -116,10 +116,10 @@
           <span class="text-body">&copy; All rights reserved. Made by </span>
           <a
             class="nav-link d-inline-block p-0"
-            href="https://coderthemes.com/"
+            
             target="_blank"
             rel="noopener"
-            >Coderthemes</a
+            >Sép.ia</a
           >
         </p>
       </div>
@@ -202,7 +202,7 @@ const footerLinks: FooterLinkType[] = [
     title: 'Resources',
     children: [
       {
-        title: 'About Silicon',
+        title: 'About Sépia',
         link: { name: '' }
       },
       {
@@ -222,7 +222,7 @@ const footerLinks: FooterLinkType[] = [
         link: { name: '' }
       },
       {
-        title: 'Careers at Silicon',
+        title: 'Careers at Sépia',
         link: { name: '' }
       }
     ]

@@ -72,7 +72,7 @@
       <div class="w-100 align-self-end">
         <p class="nav d-block fs-xs text-center text-xl-start pb-2 mb-0">
           &copy; All rights reserved. Made by
-          <a class="nav-link d-inline-block p-0" href="https://coderthemes.com/" target="_blank" rel="noopener">Coderthemes</a>
+          <a class="nav-link d-inline-block p-0" target="_blank" rel="noopener">Sép.ia</a>
         </p>
       </div>
     </b-container>

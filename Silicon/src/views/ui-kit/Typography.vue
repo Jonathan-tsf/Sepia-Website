@@ -7,17 +7,17 @@
 
     <!-- Headings -->
     <CustomSyntax id="type-headings" title="Headings" :code="headings">
-      <h1>h1. Silicon heading</h1>
+      <h1>h1. Sépia heading</h1>
       <hr class="my-0" />
-      <h2 class="pt-3">h2. Silicon heading</h2>
+      <h2 class="pt-3">h2. Sépia heading</h2>
       <hr class="my-0" />
-      <h3 class="pt-3">h3. Silicon heading</h3>
+      <h3 class="pt-3">h3. Sépia heading</h3>
       <hr class="my-0" />
-      <h4 class="pt-3">h4. Silicon heading</h4>
+      <h4 class="pt-3">h4. Sépia heading</h4>
       <hr class="my-0" />
-      <h5 class="pt-3">h5. Silicon heading</h5>
+      <h5 class="pt-3">h5. Sépia heading</h5>
       <hr class="my-0" />
-      <h6 class="pt-3 mb-0">h6. Silicon heading</h6>
+      <h6 class="pt-3 mb-0">h6. Sépia heading</h6>
     </CustomSyntax>
 
     <!-- Display headings -->
@@ -239,12 +239,12 @@ import UIKitPageTitle from '@/layouts/partials/UIKitPageTitle.vue'
 import AnchorNavigation from '@/components/AnchorNavigation.vue'
 
 const headings = `<!-- Headings -->
-<h1>h1. Coderthemes heading</h1>
-<h2>h2. Coderthemes heading</h2>
-<h3>h3. Coderthemes heading</h3>
-<h4>h4. Coderthemes heading</h4>
-<h5>h5. Coderthemes heading</h5>
-<h6>h6. Coderthemes heading</h6>`
+<h1>h1. Sép.ia heading</h1>
+<h2>h2. Sép.ia heading</h2>
+<h3>h3. Sép.ia heading</h3>
+<h4>h4. Sép.ia heading</h4>
+<h5>h5. Sép.ia heading</h5>
+<h6>h6. Sép.ia heading</h6>`
 
 const displayHeadings = `<!-- Display headings -->
 <h1 class="display-1">Display 1</h1>

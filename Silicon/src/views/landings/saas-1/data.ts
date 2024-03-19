@@ -32,44 +32,43 @@ import type { WorkType, FeatureType, TestimonialType, WorkToolType, UseCaseType 
 export const featuresData: FeatureType[] = [
   {
     image: chatImg,
-    title: 'Task Comments',
-    description: 'Id mollis consectetur congue egestas egestas suspendisse blandit justo.'
+    title: 'Multilingual Support',
+    description: 'Olivia speaks every language, making every guest feel at home and understood, enhancing the dining experience for an international clientele.'
   },
   {
     image: analyticsImg,
-    title: 'Tasks Analytics',
-    description: 'Augue pulvinar justo, fermentum fames aliquamant accumsan vestibulum.'
+    title: 'Instant Recommendations',
+    description: 'Leveraging AI, Olivia suggests high-margin dishes and drinks, subtly guiding guests towards a satisfying and profitable dining experience.'
   },
   {
     image: bellImg,
-    title: 'Notifications',
-    description: 'Mattis urna ultricies non amet, purus in auctor non. Odio vulputate ac nibh.'
+    title: 'Quick Decision Making',
+    description: 'With Olivia, guests can quickly get answers to their questions, speeding up decision-making and improving table turnover rates.'
   },
   {
     image: tasksImg,
-    title: 'Sections &amp; Subtasks',
-    description: 'A elementum, imperdiet enim, pretium etiam facilisi in aenean quam mauris.<'
+    title: 'Interactive Menu Exploration',
+    description: 'Guests can explore the menu in an interactive way with Olivia, discovering the stories behind dishes and ingredients, making dining more engaging.'
   },
   {
     image: calendarImg,
-    title: 'Progress Tracking',
-    description: 'Sit facilisis dolor arcu, fermentum vestibulum arcu elementum imperdiet eleifend.'
+    title: 'Enhanced Dining Atmosphere',
+    description: 'Olivia contributes to a modern, tech-savvy restaurant atmosphere, making your establishment a talking point and attracting a tech-interested clientele.'
   },
   {
     image: addGroupImg,
-    title: 'Multiple Assignees',
-    description:
-      'Faucibus cursus maecenas lorem cursus nibh. Sociis sit risus id. Sit facilisis dolor arcu.'
+    title: 'Promotional Messaging',
+    description: 'Seamlessly integrated promotional messages boost the visibility of special offers and events, enhancing revenue and guest participation.'
   },
   {
     image: headsetImg,
-    title: 'Support 24/7',
-    description: 'Sapien sed massa sit erat pellentesque pellentesque nisl, elementum.'
+    title: 'Immediate Assistance',
+    description: 'Olivia is always on hand to provide immediate assistance, answering queries and providing information, ensuring guest satisfaction.'
   },
   {
     image: shieldImg,
-    title: 'Data Security',
-    description: 'Aliquet felis facilisi sem nunc. Sapien fermentum, fringilla molestie lorem nec.'
+    title: 'Privacy-Preserving Interaction',
+    description: 'Conversations with Olivia are designed with privacy in mind, ensuring guests feel secure in their interactions.'
   }
 ]
 

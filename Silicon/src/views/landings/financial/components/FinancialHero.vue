@@ -55,8 +55,8 @@
               </li>
               <li class="d-flex align-items-center pb-1 mb-2">
                 <Icon :icon="EnvelopeIcon" class="fs-xl text-primary me-2" />
-                <a href="mailto:email@example.com" class="nav-link fw-normal p-0"
-                  >email@example.com</a
+                <a href="mailto:sép.ia@gmail.com" class="nav-link fw-normal p-0"
+                  >sép.ia@gmail.com</a
                 >
               </li>
               <li class="d-flex align-items-center pb-1 mb-2">

@@ -1,9 +1,9 @@
 <template>
   <UIKitLayout>
     <UIKitPageTitle
-      title="Silicon utilities"
-      description="Custom Silicon classes with a purpose to reduce the frequency of highly repetitive declarations."
-      is-silicon-component
+      title="Sépia utilities"
+      description="Custom Sépia classes with a purpose to reduce the frequency of highly repetitive declarations."
+      is-Sépia-component
     />
 
     <!-- Faded background colors -->

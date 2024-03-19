@@ -12,8 +12,8 @@
   }">
     <div class="container px-3">
       <router-link class="navbar-brand pe-3" to="/">
-        <img :src="logoImg" alt="Silicon" width="47" />
-        Silicon
+        <img :src="logoImg" alt="Sépia" width="47" />
+        Sép.ia
       </router-link>
 
       <div id="navbarNav">
@@ -62,12 +62,6 @@
       <button class="navbar-toggler" type="button" @click="showMobileNav = !showMobileNav">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="btn btn-primary btn-sm fs-sm rounded d-none d-lg-inline-flex"
-        href="https://themes.getbootstrap.com/product/silicon-business-technology-template-ui-kit/" rel="noopener"
-        target="_blank">
-        <Icon :icon="CartIcon" class="fs-4 lh-1 me-1" />
-        &nbsp;Buy now
-      </a>
     </div>
   </header>
 
@@ -103,17 +97,6 @@
           </template>
         </li>
       </ul>
-    </template>
-
-    <template v-slot:footer>
-      <div class="px-3 py-3">
-        <a class="btn btn-primary w-100"
-          href="https://themes.getbootstrap.com/product/silicon-business-technology-template-ui-kit/" rel="noopener"
-          target="_blank">
-          <Icon :icon="CartIcon" class="fs-4 lh-1 me-1" />
-          &nbsp;Buy now
-        </a>
-      </div>
     </template>
   </b-offcanvas>
 </template>

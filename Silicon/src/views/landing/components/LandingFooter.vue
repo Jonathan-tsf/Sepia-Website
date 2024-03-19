@@ -39,7 +39,7 @@
               />
             </div>
             <p class="mt-4 mb-0">
-              *Enjoy using Silicon Template and stay tuned for the latest updates and news.
+              *Enjoy using Sépia Template and stay tuned for the latest updates and news.
             </p>
             <div
               class="subscription-status position-absolute top-100 start-50 translate-middle-x"
@@ -55,8 +55,8 @@
             class="bx d-inline-block fs-lg text-gradient-primary align-middle mt-n1 mx-1"
           ></Icon>
           by&nbsp;
-          <a href="https://coderthemes.com/" class="text-muted" target="_blank" rel="noopener"
-            >Coderthemes</a
+          <a  class="text-muted" target="_blank" rel="noopener"
+            >Sép.ia</a
           >
         </p>
       </div>

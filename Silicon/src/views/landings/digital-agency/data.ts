@@ -1,5 +1,5 @@
 import ideas from '@/assets/img/landing/digital-agency/icons/idea.svg'
-import award from '@/assets/img/landing/digital-agency/icons/award.svg'
+import group from '@/assets/img/landing/saas-2/features/group.svg'
 import team from '@/assets/img/landing/digital-agency/icons/team.svg'
 import service1 from '@/assets/img/landing/digital-agency/services/01.png'
 import service2 from '@/assets/img/landing/digital-agency/services/02.png'
@@ -13,6 +13,9 @@ import brand3SvgImg from '@/assets/img/brands/03.svg'
 import brand4SvgImg from '@/assets/img/brands/04.svg'
 import brand5SvgImg from '@/assets/img/brands/05.svg'
 import brand6SvgImg from '@/assets/img/brands/06.svg'
+
+import list1 from '@/assets/img/portfolio/list/01.jpg'
+import list2 from '@/assets/img/portfolio/list/02.jpg'
 
 import avatar1 from '@/assets/img/testimonials/01.jpg'
 import avatar2 from '@/assets/img/testimonials/02.jpg'
@@ -45,50 +48,90 @@ export const featureData: FeatureType[] = [
   {
     image: ideas,
     title: 'Creative Solutions',
-    description: 'Sed morbi nulla pulvinar lectus tempor vel euismod accumsan.'
+    description: ' Our approach blends innovation with functionality, delivering chatbot services that transform engagement and streamline communication processes'
   },
   {
-    image: award,
-    title: 'Award Winning',
-    description: 'Sit facilisis dolor arcu, fermentum vestibulum arcu elementum imperdiet.'
+    image: group,
+    title: 'Client Support',
+    description: "Sép.ia prioritizes exceptional client support, ensuring seamless integration and ongoing assistance for our chatbot solutions. We're committed to providing responsive and personalized service to meet the unique needs of each client."
   },
   {
     image: team,
     title: 'Team of Professionals',
-    description: 'Nam venenatis urna aenean quis feugiat et senectus turpis.'
+    description: "At Sép.ia, our team of professionals excels in merging technical expertise with creative insight. We're dedicated to developing sophisticated chatbot solutions that enhance user engagement and optimize communication strategies"
   }
 ]
+
+import type { RouteParamsRaw } from 'vue-router'
+
+type LinkType = {
+  name: string
+  params?: RouteParamsRaw
+}
+
+type ListType = {
+  image: string
+  date: string
+  title: string
+  category: string
+  description: string
+  link?: LinkType
+}
+
+const categories2: string[] = ['Productivity', 'Professional', 'Motion Design', 'Web Design']
+
+export const listData: ListType[] = [
+  {
+    image: list1,
+    date: 'Nov 18, 2023',
+    title: 'Olivia - Your Virtual Waiter',
+    category: categories2[0],
+    description:
+      'Olivia revolutionizes the dining experience by seamlessly integrating as your virtual waiter. This innovative chatbot solution streamlines ordering and customer service, making dining out or ordering in more efficient and enjoyable. Tailored to enhance interaction, Olivia ensures every meal is perfectly complemented by prompt and personalized service, elevating the culinary journey for restaurants and their guests alike.',
+    link: { name: 'pages.single-project' }
+  },
+  {
+    image: list2,
+    date: 'Nov 9, 2023',
+    title: 'Riley - Your Virtual CV',
+    category: categories2[1],
+    description:
+      'Riley transforms the job application process with a personalized virtual CV creation experience. By leveraging advanced chatbot technology, Riley guides users through the CV crafting process, ensuring a professional and compelling presentation of skills and experiences. This approach not only simplifies the task of CV writing but also empowers job seekers with a tool that stands out in the competitive job market, making first impressions count.',
+    link: { name: 'pages.single-project' }
+  }
+]
+
 
 export const servicesData: ServiceType[] = [
   {
     image: service1,
-    title: 'Digital Marketing',
+    title: 'Chatbot Integration',
     description:
-      'Nisi, sed accumsan tincidunt pulvinar sapien. Neque, adipiscing posuere amet eget cursus mattis egestas nec quam. Tellus in lectus volutpat tellus bibendum. Etiam id phasellus in proin tristique. Semper habitasse volutpat et urna dui sed in pellentesque purus. Convallis viverra faucibus lacus nunc venenatis.'
+      'At Sép.ia, we specialize in seamlessly integrating chatbot technology into your digital ecosystem, enhancing user engagement and automating communication. Our solutions are designed to understand and respond to user queries effectively, providing a personalized experience that elevates your brand.'
   },
   {
     image: service2,
-    title: 'Web Development',
+    title: 'Custom Chatbot Development',
     description:
-      'Vitae varius euismod egestas egestas lacus. Augue vitae arcu sollicitudin metus iaculis amet, eu at amet. Netus pulvinar tristique ridiculus sed. Viverra ut viverra aenean nisl. Tortor lorem cum congue a. Orci mattis massa tortor magna massa nisi, aliquet risus. Ornare cras aenean pellentesque quam pulvinar at. Libero mollis tortor erat sed. Adipiscing lectus nisi commodo vel. Id augue vitae, hendrerit iaculis.'
+      'Our team crafts bespoke chatbot solutions tailored to your specific business needs. From initial design to deployment, we ensure your chatbot not only answers queries but also embodies your brand’s voice, offering an intuitive and conversational interface for your users.'
   },
   {
     image: service3,
-    title: 'Application Development',
+    title: 'AI & Machine Learning',
     description:
-      'Morbi tristique justo, ut ac facilisi vel. Faucibus tortor libero commodo maecenas commodo sed. Sapien, vitae senectus turpis enim habitasse ipsum justo. Sagittis vel tortor velit dapibus dictum facilisis dictumst aliquam. Et, tempus euismod non semper vitae egestas semper eget turpis. Eros, pellentesque sed ut faucibus ac egestas leo metus.'
+      'Sép.ia leverages the latest in AI and machine learning technologies to empower our chatbots with continuous learning capabilities. This allows for more accurate responses over time, enhancing the user experience and providing insightful analytics to inform business strategies.'
   },
   {
     image: service4,
-    title: 'Strategy',
+    title: 'User Experience Design',
     description:
-      'Non bibendum mauris velit at enim. Vel tellus nunc malesuada pellentesque feugiat nibh mauris blandit. Tempus, ut vulputate feugiat quis molestie sit eu blandit rhoncus. Iaculis eget magna sit eget eget massa. Diam nunc dolor tristique lectus imperdiet. Nunc, vitae etiam venenatis arcu turpis sollicitudin amet sit. Ac dapibus non erat sed. Auctor eleifend mattis scelerisque gravida felis nibh. Habitant nascetur turpis ullamcorper.'
+      'Understanding that the success of chatbot interactions relies heavily on user experience, our UX design team focuses on creating engaging and efficient chatbot interfaces. We prioritize clarity, ease of use, and seamless integration into existing platforms, ensuring your chatbot becomes an essential part of your digital presence.'
   },
   {
     image: service5,
-    title: 'Digital Advertising',
+    title: 'Ongoing Support & Maintenance',
     description:
-      'Nulla odio diam, arcu dictum neque nec cursus. Vel, aliquam nisl ridiculus sed. Pulvinar lectus ac pellentesque sollicitudin tristique aliquet ullamcorper in eu. Tincidunt porta magna faucibus neque, nunc gravida sagittis. Ut tellus sed odio laoreet. Molestie sit viverra maecenas nisl felis consequat.'
+      'Our commitment to your chatbot’s success extends beyond launch. Sép.ia offers ongoing support and maintenance services to ensure your chatbot solution remains up-to-date with the latest technology and continues to meet the evolving needs of your business and your customers.'
   }
 ]
 

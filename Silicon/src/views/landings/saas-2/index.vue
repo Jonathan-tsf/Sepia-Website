@@ -5,15 +5,7 @@
 
   <Features />
 
-  <ComparisonSlider />
-
-  <Testimonial />
-
-  <Cta />
-
   <Pricing />
-
-  <Integration />
 
   <Saas2Footer />
 

@@ -11,7 +11,7 @@
             <Icon :icon="HomeAltIcon" class="fs-lg me-1" />
             Home
           </b-breadcrumb-item>
-          <b-breadcrumb-item active>Contacts v.3</b-breadcrumb-item>
+          <b-breadcrumb-item active>Contacts</b-breadcrumb-item>
         </b-breadcrumb>
       </b-nav>
 
@@ -21,9 +21,8 @@
           <h2 class="display-1 text-gradient-primary pb-sm-2 pb-md-3 mb-3">Let's talk!</h2>
           <div class="nav d-block lead pt-lg-5">
             <a href="#" class="nav-link fw-normal text-decoration-underline p-0 mb-4"
-              >email@example.com</a
+              >sép.ia@gmail.com</a
             >
-            <div class="text-nav">+1 406 555-0120</div>
           </div>
         </b-col>
         <b-col lg="6" class="offset-xl-1 offset-xxl-2 pt-3 pt-md-4 pt-lg-3 mt-3">

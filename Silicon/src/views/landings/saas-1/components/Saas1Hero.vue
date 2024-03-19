@@ -5,31 +5,14 @@
         <b-row class="flex-lg-nowrap">
           <b-col lg="6" xl="5" class="text-center text-lg-start pt-5 mt-xl-4">
             <h1 class="display-4 pt-5 pb-2 pb-lg-3 mt-sm-2 mt-lg-5">
-              Task Management Assistant You Gonna Love
+              
+Revolutionizing Restaurant Service with Olivia
             </h1>
             <p class="fs-lg mb-4 mb-lg-5">
-              We offer you a new generation of task management system. Plan, manage &amp; track all
-              your tasks in one flexible tool.
+              Experience the future of dining with Olivia, your virtual restaurant assistant. Seamlessly order, interact, and enjoy at the touch of a button – all from the comfort of your table.
             </p>
-            <a href="#" class="btn btn-primary btn-lg">Get started for free</a>
+            <a href="#" class="btn btn-primary btn-lg">Try our Demo</a>
             <div class="pt-5 mt-xl-5">
-              <h6 class="pt-xl-3 pb-3 pb-lg-4">
-                Largest companies use our tool to work efficiently
-              </h6>
-              <div class="d-flex justify-content-center justify-content-lg-start mx-xl-n2">
-                <a href="#" class="d-block me-2">
-                  <img :src="brands7Img" width="135" alt="Logo" />
-                </a>
-                <a href="#" class="d-block me-2">
-                  <img :src="brands4Img" width="135" alt="Logo" />
-                </a>
-                <a href="#" class="d-block me-2">
-                  <img :src="brands2Img" width="135" alt="Logo" />
-                </a>
-                <a href="#" class="d-block me-2">
-                  <img :src="brands5Img" width="135" alt="Logo" />
-                </a>
-              </div>
             </div>
           </b-col>
 

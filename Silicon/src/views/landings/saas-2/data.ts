@@ -21,36 +21,36 @@ import type { FeatureType, IntegrationType, TestimonialType, UserType } from './
 export const featureData: FeatureType[] = [
   {
     image: commentsImg,
-    title: 'Comments on Tasks',
-    description: 'Id mollis consectetur congue egestas egestas suspendisse blandit justo.'
+    title: 'Interactive Engagements',
+    description: 'Engage with Riley to dynamically present your skills and experiences through conversational interactions, making your CV memorable.'
   },
   {
     image: analyticsImg,
-    title: 'Tasks Analytics',
-    description: 'Non imperdiet facilisis nulla tellus Morbi scelerisque eget adipiscing vulputate.'
+    title: 'Engagement Analytics',
+    description: 'Track how potential employers interact with your CV chatbot, providing invaluable insights into what captures their interest.'
   },
   {
     image: groupImg,
-    title: 'Multiple Assignees',
-    description: 'A elementum, imperdiet enim, pretium etiam facilisi in aenean quam mauris.'
+    title: 'Collaborative Feedback',
+    description: 'Riley enables collaborative feedback from peers and mentors directly within your interactive CV, enhancing its appeal.'
   },
   {
     image: notificationImg,
-    title: 'Notifications',
-    description:
-      'Diam, suspendisse velit cras ac. Lobortis diam volutpat, eget pellentesque viverra.'
+    title: 'Real-time Updates',
+    description: 'Receive instant notifications when employers engage with your CV, keeping you informed of their interest and questions.'
   },
   {
     image: tasksImg,
-    title: 'Sections & Subtasks',
-    description: 'Mi feugiat hac id in. Sit elit placerat lacus nibh lorem ridiculus lectus.'
+    title: 'Customizable Sections',
+    description: 'Easily customize sections of your CV through Riley, tailoring the chatbot to highlight your most compelling skills and achievements.'
   },
   {
     image: securityImg,
-    title: 'Data Security',
-    description: 'Aliquam malesuada neque eget elit nulla vestibulum nunc cras.'
+    title: 'Privacy and Security',
+    description: 'Your data’s security is paramount. Riley ensures that your information is protected, giving you peace of mind in your job search.'
   }
 ]
+
 
 const usersData: UserType[] = [
   {

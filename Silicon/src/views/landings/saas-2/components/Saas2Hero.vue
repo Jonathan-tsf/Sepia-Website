@@ -6,13 +6,11 @@
         <b-row class="justify-content-center text-center pt-4 pb-sm-2 py-lg-5">
           <b-col xl="8" lg="9" md="10" class="py-5">
             <h1 class="display-4 text-light pt-sm-2 pb-1 pb-sm-3 mb-3">
-              Task Management Assistant You Gonna Love
+              Your Resume Assistant You Gonna Love
             </h1>
             <p class="fs-lg text-light opacity-70 pb-2 pb-sm-0 mb-4 mb-sm-5">
-              We offer you a new generation of task and project management system. Plan, manage and
-              track all your tasks in one flexible software!
+             Introducing a pioneering approach to resume creation. With Riley, craft your professional CV through an interactive chatbot experience. Design, tailor, and perfect your resume effortlessly, all within one intuitive platform!
             </p>
-            <a href="#" class="btn btn-primary shadow-primary btn-lg">Get early access</a>
           </b-col>
         </b-row>
       </b-container>
@@ -43,18 +41,6 @@
     >
       <div class="d-none d-lg-block" style="margin-top: -300px"></div>
       <div class="d-none d-md-block d-lg-none" style="margin-top: -150px"></div>
-
-      <!-- Parallax (3D Tilt) gfx -->
-      <VanillaTilt
-        custom-class="tilt-3d"
-        data-tilt
-        :options="{ 'full-page-listening': true, max: 12, perspective: 1200 }"
-      >
-        <img :src="layer1Img" alt="Dashboard" />
-        <div class="tilt-3d-inner position-absolute top-0 start-0 w-100 h-100">
-          <img :src="layer2Img" alt="Cards" />
-        </div>
-      </VanillaTilt>
     </div>
     <div
       class="position-absolute top-0 start-0 w-100 h-100"

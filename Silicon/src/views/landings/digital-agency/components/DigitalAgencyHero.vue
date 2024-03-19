@@ -14,14 +14,7 @@
           <div class="mb-md-5 pb-xl-5 mb-4">
             <!-- Video popup btn -->
             <div class="d-inline-flex align-items-center position-relative mb-3">
-              <VideoPopup
-                link="https://www.youtube.com/watch?v=zPo5ZaH6sW8"
-                custom-class="btn btn-video btn-icon btn-lg flex-shrink-0 me-3 stretched-link"
-                data-bs-toggle="video"
-                aria-label="Play video"
-              >
-              </VideoPopup>
-              <h4 class="mb-0">Digital Agency Promo</h4>
+              <h4 class="mb-0">Discover Us</h4>
             </div>
 
             <!-- Text -->
@@ -36,8 +29,9 @@
                 Work with us
               </router-link>
               <p class="d-lg-block d-none mb-0 ps-md-3">
-                Silicon is a leading full-service digital agency based in New York. We make mobile
-                apps,websites &amp; brands, that people appreciate all around the world.
+               
+              Sép.ia, an innovative startup, revolutionizes digital interactions through custom chatbot solutions. 
+              We turn specific needs into exceptional user experiences, shaping the future of automated communication.
               </p>
             </div>
           </div>
@@ -55,7 +49,7 @@
             >
               <i class="bx bx-chevron-down"></i>
             </a>
-            <span class="fs-sm">Discover more</span>
+            <span class="fs-sm">See more</span>
           </div>
         </b-col>
 

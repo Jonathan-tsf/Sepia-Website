@@ -27,11 +27,6 @@
             item.category
           }}</a>
           <p class="d-md-none d-lg-block pb-3 mb-2 mb-md-3">{{ item.description }}</p>
-          <router-link
-            :to="{ name: item.link?.name, params: item.link?.params }"
-            class="btn btn-outline-primary"
-            >View more
-          </router-link>
         </div>
       </div>
     </b-row>

@@ -5,7 +5,7 @@ import { onMounted, ref } from 'vue'
 const html = document.getElementsByTagName('html')[0]
 
 export const useThemeStore = defineStore('theme_store', () => {
-  const theme = useLocalStorage<'light' | 'dark'>('silicon_vue_theme_store', 'dark')
+  const theme = useLocalStorage<'light' | 'dark'>('Sépia_vue_theme_store', 'dark')
 
   let isSidebarVisible = ref(true)
 

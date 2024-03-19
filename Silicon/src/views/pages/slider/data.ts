@@ -25,7 +25,7 @@ export const sliderData: SliderType[] = [
     title: '3D Shape Illustration',
     description:
       'Proin odio elit fringilla pellentesque erat sapien, cursus id. Sed mi semper amet fringilla. Eget morbi arcu ac vestibulum sodales. Montes, integer lacinia amet tristique tincidunt.',
-    client: 'Coderthemes Inc.',
+    client: 'Sép.ia Inc.',
     category: 'Graphic Design',
     date: '29 November 2023',
     link: { name: 'pages.single-project' }

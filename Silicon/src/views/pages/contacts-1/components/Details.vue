@@ -17,7 +17,7 @@
               </p>
             </div>
             <div class="card-footer border-0 p-0">
-              <a href="mailto:email@example.com" class="btn btn-lg btn-primary">Send email</a>
+              <a href="mailto:sép.ia@gmail.com" class="btn btn-lg btn-primary">Send email</a>
             </div>
           </div>
           <div class="vr text-border d-none d-sm-inline-block m-4"></div>

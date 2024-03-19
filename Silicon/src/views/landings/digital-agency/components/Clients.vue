@@ -12,7 +12,7 @@
         </b-button>
         <b-button
           size="sm"
-          type="button"
+          type="button"z
           id="next-brand"
           class="btn-next btn-icon ms-2"
           aria-label="Next"

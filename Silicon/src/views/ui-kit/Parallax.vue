@@ -3,8 +3,8 @@
     <!-- Page title -->
     <UIKitPageTitle
       title="Parallax"
-      description="Silicon supports 2 types of parallax effect: on page scrolling and cursor position."
-      is-silicon-component
+      description="Sépia supports 2 types of parallax effect: on page scrolling and cursor position."
+      is-Sépia-component
     />
 
     <!-- Background image -->

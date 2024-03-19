@@ -3,11 +3,10 @@
     <b-container class="container position-relative zindex-5 pb-md-4 pt-md-2 pt-lg-3 pb-lg-5">
       <b-row class="justify-content-center text-center pb-3 mb-sm-2 mb-lg-3">
         <b-col xl="6" lg="7" md="9">
-          <h2 class="h1 mb-lg-4">What Do You Get with Our Tool?</h2>
-          <p class="fs-lg text-muted mb-0">
-            Make sure all your tasks are organized so you can set the priorities and focus on
-            important.
-          </p>
+          <h2 class="h1 mb-lg-4">What Makes Riley Unique?</h2>
+<p class="fs-lg text-muted mb-0">
+  Experience your CV like never before — Riley transforms it into an interactive chatbot. Engage potential employers with a dynamic presentation of your skills and experience, setting you apart in the job market.
+</p>
         </b-col>
       </b-row>
       <b-row class="row-cols-1 row-cols-sm-2 row-cols-md-3 g-0 pb-xl-3">

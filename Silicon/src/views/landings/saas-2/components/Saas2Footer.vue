@@ -1,58 +1,115 @@
 <template>
-  <section class="bg-secondary py-5">
-    <b-container class="text-center py-1 py-md-4 py-lg-5">
-      <h2 class="h1 mb-4">Ready to Get Started?</h2>
-      <p class="lead pb-3 mb-3">Organize your tasks with a 14-day free trial</p>
-      <a href="#" class="btn btn-primary shadow-primary btn-lg mb-1">Get started</a>
-    </b-container>
-  </section>
-
-  <footer class="footer bg-dark pt-5 pb-4 pb-lg-5" data-bs-theme="dark">
-    <b-container class="text-center pt-lg-3">
-      <div class="navbar-brand justify-content-center text-dark mb-2 mb-lg-4">
-        <img :src="logoImg" class="me-2" width="60" alt="Silicon" />
-        <span class="fs-4">Silicon</span>
-      </div>
-      <ul class="nav justify-content-center pt-3 pb-4 pb-lg-5">
-        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Overview</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Contacts</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Account</a></li>
-      </ul>
-      <div class="d-flex flex-column flex-sm-row justify-content-center">
-        <a href="#" class="btn btn-dark btn-lg px-3 py-2 me-sm-4 mb-3">
-          <img :src="appStoreLightImg" class="light-mode-img" width="124" alt="App Store" />
-          <img :src="appStoreDarkImg" class="dark-mode-img" width="124" alt="App Store" />
-        </a>
-        <a href="#" class="btn btn-dark btn-lg px-3 py-2 mb-3">
-          <img :src="googlePlayLightImg" class="light-mode-img" width="139" alt="Google Play" />
-          <img :src="googlePlayDarkImg" class="dark-mode-img" width="139" alt="Google Play" />
-        </a>
-      </div>
-      <div class="d-flex justify-content-center pt-4 mt-lg-3">
-        <a href="#" class="btn btn-icon btn-secondary btn-facebook mx-2" aria-label="Facebook">
-          <Icon :icon="FacebookIcon" class="bx"></Icon>
-        </a>
-        <a href="#" class="btn btn-icon btn-secondary btn-instagram mx-2" aria-label="Instagram">
-          <Icon :icon="InstagramIcon" class="bx"></Icon>
-        </a>
-        <a href="#" class="btn btn-icon btn-secondary btn-twitter mx-2" aria-label="Twitter">
-          <Icon :icon="TwitterIcon" class="bx"></Icon>
-        </a>
-        <a href="#" class="btn btn-icon btn-secondary btn-youtube mx-2" aria-label="YouTube">
-          <Icon :icon="YoutubeIcon" class="bx"></Icon>
-        </a>
-      </div>
-      <p class="nav d-block fs-sm text-center pt-5 mt-lg-4 mb-0">
-        <span class="text-light opacity-60">&copy; All rights reserved. Made by </span>
+  <footer class="footer pt-5 pb-4 pb-lg-5">
+    <b-container class="pt-lg-4">
+      <b-row class="pb-5">
+        <b-col lg="4" md="6">
+          <div class="navbar-brand text-dark p-0 me-0 mb-3 mb-lg-4">
+            <img :src="logo" width="47" alt="Sépia" />
+            Sépia
+          </div>
+          <b-form>
+            <label for="subscr-email" class="form-label">Subscribe to our newsletter</label>
+            <div class="input-group">
+              <b-form-input
+                type="email"
+                id="subscr-email"
+                class="rounded-start ps-5"
+                placeholder="Your email"
+                required
+              />
+              <Icon
+                :icon="EnvelopeIcon"
+                class="fs-lg text-muted position-absolute top-50 start-0 translate-middle-y ms-3 zindex-5"
+              ></Icon>
+              <div class="invalid-tooltip position-absolute top-100 start-0">
+                Please provide a valid email address.
+              </div>
+              <b-button variant="primary" type="submit">Subscribe</b-button>
+            </div>
+          </b-form>
+        </b-col>
+        <b-col xl="6" lg="7" md="5" class="offset-xl-2 offset-md-1 pt-4 pt-md-1 pt-lg-0">
+          <b-row id="footer-links">
+            <b-col lg="4">
+              <h6 class="mb-2">
+                <a
+                  href="#useful-links"
+                  class="d-block text-dark dropdown-toggle d-lg-none py-2"
+                  v-b-toggle.useful_links
+                  >Useful Links</a
+                >
+              </h6>
+              <b-collapse id="useful_links" class="d-lg-block" data-bs-parent="#footer-links">
+                <ul class="nav flex-column pb-lg-1 mb-lg-3">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Integrations</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Our Clients</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Blog</a>
+                  </li>
+                </ul>
+                <ul class="nav flex-column mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2"
+                      >Terms &amp; Conditions</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Privacy Policy</a>
+                  </li>
+                </ul>
+              </b-collapse>
+            </b-col>
+            <b-col xl="4" lg="3">
+              <h6 class="mb-2">
+                <a
+                  href="#social-links"
+                  class="d-block text-dark dropdown-toggle d-lg-none py-2"
+                  v-b-toggle.social_links
+                  >Socials</a
+                >
+              </h6>
+              <b-collapse id="social_links" class="d-lg-block" data-bs-parent="#footer-links">
+                <ul class="nav flex-column mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Facebook</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">LinkedIn</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Twitter</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Instagram</a>
+                  </li>
+                </ul>
+              </b-collapse>
+            </b-col>
+            <b-col xl="4" lg="5" class="pt-2 pt-lg-0">
+              <h6 class="mb-2">Contact Us</h6>
+              <a href="mailto:sép.ia@gmail.com" class="fw-medium">sép.ia@gmail.com</a>
+            </b-col>
+          </b-row>
+        </b-col>
+      </b-row>
+      <p class="nav d-block fs-xs text-center text-md-start pb-2 pb-lg-0 mb-0">
+        &copy; All rights reserved. Made by
         <a
           class="nav-link d-inline-block p-0"
-          href="https://coderthemes.com/"
+          
           target="_blank"
           rel="noopener"
-          >Coderthemes</a
+          >Sép.ia</a
         >
       </p>
     </b-container>
@@ -60,16 +117,7 @@
 </template>
 
 <script setup lang="ts">
+import logo from '@/assets/img/logo.svg'
 import { Icon } from '@iconify/vue'
-import FacebookIcon from '@iconify/icons-bx/bxl-facebook'
-import InstagramIcon from '@iconify/icons-bx/bxl-instagram'
-import TwitterIcon from '@iconify/icons-bx/bxl-twitter'
-import YoutubeIcon from '@iconify/icons-bx/bxl-youtube'
-import logoImg from '@/assets/img/logo.svg'
-import {
-  appStoreLightImg,
-  appStoreDarkImg,
-  googlePlayDarkImg,
-  googlePlayLightImg
-} from '@/assets/data/image'
+import EnvelopeIcon from '@iconify/icons-bx/bx-envelope'
 </script>

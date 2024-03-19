@@ -3,7 +3,7 @@ import { allRoutes } from '@/router/routes'
 import { useFakeAuthStore } from '@/stores/fakeAuth'
 
 const router = createRouter({
-  history: createWebHistory('/silicon_v'),
+  history: createWebHistory('/sepia'),
   routes: allRoutes
 })
 
@@ -26,7 +26,7 @@ router.beforeEach((routeTo, routeFrom, next) => {
   if (!authRequired) return next()
 
   let useFakeAuth = useFakeAuthStore()
-  // If auth is required and the user is logged in...
+
   if (useFakeAuth.isAuthenticated) {
     return next()
   }

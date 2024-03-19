@@ -49,11 +49,11 @@
                 </li>
                 <li>
                   <a
-                    href="mailto:email@example.com"
+                    href="mailto:sép.ia@gmail.com"
                     class="nav-link align-items-start fw-normal px-0 py-1"
                   >
                     <Icon :icon="EnvelopeIcon" class="bx fs-5 text-primary me-2"></Icon>
-                    email@example.com
+                    sép.ia@gmail.com
                   </a>
                 </li>
               </ul>
@@ -84,10 +84,10 @@
           <span class="text-light opacity-50">&copy; All rights reserved. Made by </span>
           <a
             class="nav-link d-inline-block p-0"
-            href="https://coderthemes.com/"
+            
             target="_blank"
             rel="noopener"
-            >Coderthemes</a
+            >Sép.ia</a
           >
         </p>
         <div class="mt-n3 ms-n3">

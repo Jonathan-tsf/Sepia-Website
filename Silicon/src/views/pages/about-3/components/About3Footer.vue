@@ -2,8 +2,8 @@
   <footer class="footer py-5">
     <b-container class="text-center pt-2 pt-sm-3">
       <div class="navbar-brand d-inline-block text-dark p-0 me-0 mb-4 pb-md-2">
-        <img :src="logo" width="47" alt="Silicon" />
-        Silicon
+        <img :src="logo" width="47" alt="Sépia" />
+        Sépia
       </div>
       <ul class="nav align-items-center justify-content-center mb-4 pb-1 pb-md-3">
         <li class="nav-item mx-lg-1 px-md-2">
@@ -47,10 +47,10 @@
         &copy; All rights reserved. Made by
         <a
           class="nav-link d-inline-block p-0"
-          href="https://coderthemes.com/"
+          
           target="_blank"
           rel="noopener"
-          >Coderthemes</a
+          >Sép.ia</a
         >. Pulvinar urna condimentum amet tempor, ornare integer. Lorem odio justo malesuada
         suspendisse viverra aliquet quisque turpis non. Feugiat in odio non nunc ornare consectetur.
       </p>

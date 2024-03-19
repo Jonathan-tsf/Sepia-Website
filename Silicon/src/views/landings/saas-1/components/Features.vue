@@ -1,6 +1,6 @@
 <template>
   <b-container>
-    <h2 class="h1 text-center pb-4 pb-lg-5">Stay Organized &amp; Connected</h2>
+    <h2 class="h1 text-center pb-4 pb-lg-5">Our benefice</h2>
     <b-row>
       <b-col
         lg="3"

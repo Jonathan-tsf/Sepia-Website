@@ -51,7 +51,7 @@
     <div class="text-center py-lg-5 py-4 mt-auto">
       <p class="nav d-block fs-sm pt-3 pt-lg-0 mb-0">
         <span class="opacity-75">&copy; All rights reserved. Made by </span>
-        <a class="nav-link d-inline-block p-0" href="https://coderthemes.com/" target="_blank" rel="noopener">Coderthemes</a>
+        <a class="nav-link d-inline-block p-0" target="_blank" rel="noopener">Sép.ia</a>
       </p>
     </div>
   </section>

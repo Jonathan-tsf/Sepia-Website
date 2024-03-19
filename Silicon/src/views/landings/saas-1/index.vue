@@ -5,15 +5,7 @@
 
   <Features />
 
-  <Work />
-
-  <UseCase />
-
   <Pricing />
-
-  <Testimonial />
-
-  <Integrations />
 
   <Cta />
 

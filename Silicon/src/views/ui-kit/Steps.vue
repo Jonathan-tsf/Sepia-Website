@@ -3,7 +3,7 @@
     <UIKitPageTitle
       title="Steps"
       description="Component is designed to showcase numbered steps of the process or timeline."
-      :is-silicon-component="true"
+      :is-Sépia-component="true"
     />
 
     <!-- Horizontal layout -->
