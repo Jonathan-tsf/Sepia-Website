@@ -10,7 +10,7 @@ export default defineConfig({
   plugins: [vue(), Components({
     resolvers: [BootstrapVueNextResolver()],
   }),],
-  base: '/sepia/digital-agency',
+  base: '/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
