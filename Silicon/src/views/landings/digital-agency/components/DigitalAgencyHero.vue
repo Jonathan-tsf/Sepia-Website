@@ -19,14 +19,14 @@
 
             <!-- Text -->
             <h1 class="display-2 mb-md-5 mb-3 pb-3">
-              We <span class="text-gradient-primary">Transform</span> Your Ideas into Reality
+              We <span class="text-gradient-primary">Transform</span> Your Ideas into Reality 
             </h1>
             <div class="d-md-flex align-items-md-start">
               <router-link
                 to="/contacts-1"
                 class="btn btn-lg btn-primary flex-shrink-0 me-md-4 mb-md-0 mb-sm-4 mb-3"
               >
-                Work with us
+                Work with Us
               </router-link>
               <p class="d-lg-block d-none mb-0 ps-md-3">
                
