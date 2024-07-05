@@ -32,7 +32,7 @@
         <b-col xl="11" class="offset-xl-1 mt-3">
           <p class="nav d-block fs-sm text-center text-md-start mb-0">
             &copy; All rights reserved. Made by
-            <a class="nav-link d-inline-block p-0" target="_blank" rel="noopener">Sép.ia</a>
+            <a class="nav-link d-inline-block p-0" target="_blank" rel="noopener">Sepia</a>
           </p>
         </b-col>
       </b-row>

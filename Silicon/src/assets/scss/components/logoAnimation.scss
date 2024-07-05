@@ -1,0 +1,49 @@
+@keyframes gradientAnimation {
+  0% {
+    fill: rgb(177, 81, 243);
+  }
+  12.5% {
+    fill: rgb(185, 133, 247);
+  }
+  25% {
+    fill: rgb(193, 184, 251);
+  }
+  37.5% {
+    fill: rgb(156, 141, 247);
+  }
+  50% {
+    fill: rgb(118, 97, 243);
+  }
+  62.5% {
+    fill: rgb(139, 91, 242);
+  }
+  75% {
+    fill: rgb(160, 86, 240);
+  }
+  87.5% {
+    fill: rgb(123, 50, 219);
+  }
+  100% {
+    fill: rgb(177, 81, 243);
+  }
+}
+
+.animated-logo .cls-3 {
+  animation: gradientAnimation 5s linear infinite;
+}
+
+.animated-logo .cls-4 {
+  fill: var(--si-body-bg);
+}
+
+.animated-logo .cls-1, .animated-logo .cls-2, .animated-logo .cls-3, .animated-logo .cls-4 {
+  stroke-width: 0px;
+}
+
+.animated-logo .cls-1 {
+  fill: none;
+}
+
+.animated-logo .cls-2 {
+  fill: url(#radial-gradient-2);
+}

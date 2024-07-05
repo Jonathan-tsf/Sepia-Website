@@ -3,7 +3,7 @@
     <UIKitPageTitle
       title="Audio player"
       description="HTML5 audio player that has consistent UI across all browsers and devices."
-      :is-Sépia-component="true"
+      :is-Sepia-component="true"
     />
 
     <section class="py-5 ps-lg-2 ps-xxl-0">

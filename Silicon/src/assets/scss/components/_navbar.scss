@@ -235,7 +235,7 @@
         }
         .mega-dropdown-column {
           width: var(--#{$prefix}mega-dropdown-column-width);
-          padding: 0 0.75rem;
+          padding-left: 20px;
           &:last-child {
             border-right: 0;
           }

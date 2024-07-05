@@ -118,7 +118,7 @@
                 <b-form-input
                   type="email"
                   id="exampleDropdownFormEmail"
-                  placeholder="sép.ia@gmail.com"
+                  placeholder="Sepia@gmail.com"
                   required
                 />
               </b-form-group>

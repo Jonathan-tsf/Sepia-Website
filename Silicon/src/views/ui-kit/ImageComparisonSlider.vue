@@ -3,7 +3,7 @@
     <UIKitPageTitle
       title="Image Comparison Slider"
       description="JavaScript based slider component that can be used to demonstrate the difference between two images."
-      is-Sépia-component
+      is-Sepia-component
     />
 
     <section class="py-5 ps-lg-2 ps-xxl-0">

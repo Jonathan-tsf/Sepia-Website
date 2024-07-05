@@ -10,7 +10,7 @@
       >
         <div class="py-md-5 py-4 text-center">
           <h3 class="h4 fw-normal text-light opacity-75">Want to work with us? Let's talk</h3>
-          <a href="mailto:sép.ia@gmail.com" class="display-6 text-light">sép.ia@gmail.com</a>
+          <a href="mailto:Sepia@gmail.com" class="display-6 text-light">Sepia@gmail.com</a>
           <div class="pt-md-5 pt-4 pb-md-2">
             <router-link to="/contacts-1" class="btn btn-lg btn-light">Contact us</router-link>
           </div>

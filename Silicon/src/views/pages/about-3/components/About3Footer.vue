@@ -2,8 +2,8 @@
   <footer class="footer py-5">
     <b-container class="text-center pt-2 pt-sm-3">
       <div class="navbar-brand d-inline-block text-dark p-0 me-0 mb-4 pb-md-2">
-        <img :src="logo" width="47" alt="Sépia" />
-        Sépia
+        <img :src="logo" width="47" alt="Sepia" />
+        Sepia
       </div>
       <ul class="nav align-items-center justify-content-center mb-4 pb-1 pb-md-3">
         <li class="nav-item mx-lg-1 px-md-2">
@@ -50,7 +50,7 @@
           
           target="_blank"
           rel="noopener"
-          >Sép.ia</a
+          >Sepia</a
         >. Pulvinar urna condimentum amet tempor, ornare integer. Lorem odio justo malesuada
         suspendisse viverra aliquet quisque turpis non. Feugiat in odio non nunc ornare consectetur.
       </p>
@@ -59,7 +59,7 @@
 </template>
 
 <script setup lang="ts">
-import logo from '@/assets/img/logo.svg'
+import logo from '@/assets/img/animated logo.svg'
 import { Icon } from '@iconify/vue'
 import FacebookIcon from '@iconify/icons-bx/bxl-facebook-square'
 import TwitterIcon from '@iconify/icons-bx/bxl-twitter'

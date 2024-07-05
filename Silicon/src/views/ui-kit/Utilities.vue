@@ -1,9 +1,9 @@
 <template>
   <UIKitLayout>
     <UIKitPageTitle
-      title="Sépia utilities"
-      description="Custom Sépia classes with a purpose to reduce the frequency of highly repetitive declarations."
-      is-Sépia-component
+      title="Sepia utilities"
+      description="Custom Sepia classes with a purpose to reduce the frequency of highly repetitive declarations."
+      is-Sepia-component
     />
 
     <!-- Faded background colors -->

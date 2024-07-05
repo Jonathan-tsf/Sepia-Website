@@ -2,7 +2,7 @@
   <b-container class="mb-5 pt-lg-2 pt-xl-4 pb-2 pb-md-3 pb-lg-5">
     <h2 class="h1 mb-4 text-center">Our Projects</h2>
     <p class="mb-4 mx-auto pb-3 fs-lg text-center" style="max-width: 636px">
-      Sép.ia enriches digital platforms by integrating custom chatbot solutions, enhancing user interaction and engagement
+      Sepia enriches digital platforms by integrating custom Intelligent Assistant solutions, enhancing user interaction and engagement
     </p>
 
     <b-row class="pb-5 mb-md-4 mb-lg-5" v-for="(item, idx) in listData" :key="idx">

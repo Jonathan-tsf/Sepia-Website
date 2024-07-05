@@ -2,8 +2,8 @@
   <footer class="footer bg-dark pt-5 pb-4 pb-lg-5" data-bs-theme="dark">
     <b-container class="text-center pt-lg-3">
       <div class="navbar-brand justify-content-center text-dark mb-2 mb-lg-4">
-        <img :src="logo" class="me-2" width="60" alt="Sépia" />
-        <span class="fs-4">Sépia</span>
+        <img :src="logo" class="me-2" width="60" alt="Sepia" />
+        <span class="fs-4">Sepia</span>
       </div>
       <ul class="nav justify-content-center pt-3 pb-4 pb-lg-5">
         <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
@@ -41,7 +41,7 @@
           
           target="_blank"
           rel="noopener"
-          >Sép.ia</a
+          >Sepia</a
         >
       </p>
     </b-container>
@@ -49,7 +49,7 @@
 </template>
 
 <script setup lang="ts">
-import logo from '@/assets/img/logo.svg'
+import logo from '@/assets/img/animated logo.svg'
 import { Icon } from '@iconify/vue'
 import CalendarCheckIcon from '@iconify/icons-bx/bx-calendar-check'
 import FacebookIcon from '@iconify/icons-bx/bxl-facebook'

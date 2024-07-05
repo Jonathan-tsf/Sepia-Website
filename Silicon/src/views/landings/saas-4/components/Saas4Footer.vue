@@ -4,8 +4,8 @@
       <b-row>
         <b-col md="6" lg="5" xl="4" class="pb-2 pb-sm-3 pb-md-0 mb-4 mb-md-0">
           <div class="navbar-brand text-dark p-0 me-0 mb-3 mb-lg-4">
-            <img :src="logoImg" width="47" alt="Sépia" />
-            Sépia
+            <img :src="logoImg" width="47" alt="Sepia" />
+            Sepia
           </div>
           <p class="text-body mb-0">
             Suscipit ipsum tincidunt pellentesque vitae. Porttitor pellentesque enim consequat
@@ -25,9 +25,9 @@
                   </a>
                 </li>
                 <li>
-                  <a href="mailto:sép.ia@gmail.com" class="nav-link fs-lg fw-normal px-0 py-1">
+                  <a href="mailto:Sepia@gmail.com" class="nav-link fs-lg fw-normal px-0 py-1">
                     <Icon :icon="EnvelopeIcon" class="bx fs-4 me-2"></Icon>
-                    sép.ia@gmail.com
+                    Sepia@gmail.com
                   </a>
                 </li>
               </ul>
@@ -94,7 +94,7 @@
           
           target="_blank"
           rel="noopener"
-          >Sép.ia</a
+          >Sepia</a
         >
       </p>
     </b-container>
@@ -109,7 +109,7 @@ import FacebookIcon from '@iconify/icons-bx/bxl-facebook'
 import LinkedinIcon from '@iconify/icons-bx/bxl-linkedin'
 import TelegramIcon from '@iconify/icons-bx/bxl-telegram'
 import YoutubeIcon from '@iconify/icons-bx/bxl-youtube'
-import logoImg from '@/assets/img/logo.svg'
+import logoImg from '@/assets/img/animated logo.svg'
 import enImg from '@/assets/img/flags/en.png'
 import frImg from '@/assets/img/flags/fr.png'
 import deImg from '@/assets/img/flags/de.png'

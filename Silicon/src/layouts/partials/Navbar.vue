@@ -12,8 +12,8 @@
   }">
     <div class="container px-3">
       <router-link class="navbar-brand pe-3" to="/">
-        <img :src="logoImg" alt="Sépia" width="47" />
-        Sép.ia
+        <img :src="logoImg" alt="Sepia" width="47" />
+        <span class="logo-by">by</span><span class="logo-sepia">Sepia</span>
       </router-link>
 
       <div id="navbarNav">
@@ -31,8 +31,8 @@
                 <div class="dropdown-menu p-0">
                   <div class="d-lg-flex">
                     <div v-if="item.image"
-                      class="mega-dropdown-column d-flex justify-content-center align-items-center rounded-3 rounded-end-0 px-0"
-                      style="margin: -1px; background-color: #f3f6ff">
+                      class="mega-dropdown-column rounded-3 rounded-end-0"
+                      style="margin: -1px; width: 20rem">
                       <img :src="item.image" alt="" />
                     </div>
 
@@ -102,7 +102,7 @@
 </template>
 
 <script lang="ts" setup>
-import logoImg from '@/assets/img/logo.svg';
+import logoImg from '@/assets/img/animated logo.svg';
 
 import ThemeChanger from '@/layouts/partials/ThemeChanger.vue';
 import { onMounted, ref } from 'vue';
@@ -193,3 +193,15 @@ const makeChunk = (input: Array<any> | undefined) => {
 
 const currentRouteName = router.currentRoute.value.name;
 </script>
+
+<style>
+.logo-by {
+  font-size: 0.8rem; /* Smaller font size */
+  opacity: 0.8; /* More opaque */
+  margin-right: 0.2rem; /* Space between 'by' and 'Sepia' */
+}
+
+.logo-sepia {
+  font-size: 1rem; /* Adjust as needed */
+}
+</style>

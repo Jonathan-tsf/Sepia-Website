@@ -1,0 +1,21 @@
+.text-container {
+    display: inline-block;
+    width: 1.8em; /* Adjust this width based on the largest word */
+    text-align: center;
+  }
+
+.transition {
+    display: inline-block;
+    transition: transform 0.7s, opacity 0.7s;
+  }
+  
+  .exit {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  
+  .enter {
+    transform: translateY(-10%);
+    opacity: 1;
+  }
+  

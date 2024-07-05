@@ -39,7 +39,7 @@
               />
             </div>
             <p class="mt-4 mb-0">
-              *Enjoy using Sépia Template and stay tuned for the latest updates and news.
+              *Enjoy using Sepia Template and stay tuned for the latest updates and news.
             </p>
             <div
               class="subscription-status position-absolute top-100 start-50 translate-middle-x"
@@ -56,7 +56,7 @@
           ></Icon>
           by&nbsp;
           <a  class="text-muted" target="_blank" rel="noopener"
-            >Sép.ia</a
+            >Sepia</a
           >
         </p>
       </div>

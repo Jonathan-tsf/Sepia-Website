@@ -47,7 +47,7 @@ export const workFlowData: WorkFlowType[] = [
     description: 'Pellentesque rhoncus viverra vestibulum, purus purus'
   },
   {
-    title: 'Earn with Sépia',
+    title: 'Earn with Sepia',
     description: 'Massa enim libero dictumst consectetur in convallis lobortis'
   }
 ]

@@ -2,7 +2,9 @@
   <Navbar />
 
   <DigitalAgencyHero />
-
+  
+  <Acronym />
+  
   <Features />
 
   <Projects />
@@ -18,6 +20,7 @@
 <script setup lang="ts">
 import Navbar from '@/layouts/partials/Navbar.vue'
 import DigitalAgencyHero from '@/views/landings/digital-agency/components/DigitalAgencyHero.vue'
+import Acronym from '@/views/landings/digital-agency/components/Acronym.vue'
 import Features from '@/views/landings/digital-agency/components/Features.vue'
 import Projects from '@/views/landings/digital-agency/components/Projects.vue'
 import Services from '@/views/landings/digital-agency/components/Services.vue'

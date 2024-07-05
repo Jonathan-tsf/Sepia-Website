@@ -5,7 +5,7 @@
         <b-col xl="6" lg="7" md="9">
           <h2 class="h1 mb-lg-4">What Makes Riley Unique?</h2>
 <p class="fs-lg text-muted mb-0">
-  Experience your CV like never before — Riley transforms it into an interactive chatbot. Engage potential employers with a dynamic presentation of your skills and experience, setting you apart in the job market.
+  Experience your CV like never before — Riley transforms it into an interactive Intelligent Assistant. Engage potential employers with a dynamic presentation of your skills and experience, setting you apart in the job market.
 </p>
         </b-col>
       </b-row>

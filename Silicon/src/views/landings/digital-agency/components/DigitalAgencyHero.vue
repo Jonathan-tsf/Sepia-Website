@@ -13,14 +13,21 @@
         >
           <div class="mb-md-5 pb-xl-5 mb-4">
             <!-- Video popup btn -->
-            <div class="d-inline-flex align-items-center position-relative mb-3">
+            <!-- <div class="d-inline-flex align-items-center position-relative mb-3">
               <h4 class="mb-0">Discover Us</h4>
-            </div>
+            </div> -->
 
             <!-- Text -->
             <h1 class="display-2 mb-md-5 mb-3 pb-3">
-              We <span class="text-gradient-primary">Transform</span> Your Ideas into Reality 
+              Information by <span class="text-gradient-primary">Conversation</span> <br>
+              <span class="text-container">
+                <span class="transition" :class="{'exit': exiting, 'enter': entering}">
+                  {{ currentText }}
+                </span>
+              </span>
+              Everyone
             </h1>
+
             <div class="d-md-flex align-items-md-start">
               <router-link
                 to="/contacts-1"
@@ -30,8 +37,7 @@
               </router-link>
               <p class="d-lg-block d-none mb-0 ps-md-3">
                
-              Sép.ia, an innovative startup, revolutionizes digital interactions through custom chatbot solutions. 
-              We turn specific needs into exceptional user experiences, shaping the future of automated communication.
+              Sepia aims to change how businesses convey, sell, or create information through Intelligent Assistants (IA). <br> IA are successors to the ages-old chatbots and thanks to LLM technology, they're more intelligent than ever. 
               </p>
             </div>
           </div>
@@ -41,9 +47,9 @@
             class="d-inline-flex align-items-center justify-content-center justify-content-md-start position-relative"
           >
             <a
-              href="#benefits"
+              href="#acronym"
               data-scroll
-              data-scroll-offset="100"
+              data-scroll-offset= '50px'
               class="btn btn-video btn-icon rounded-circle shadow-sm flex-shrink-0 stretched-link me-3"
               aria-label="Scroll for more"
             >
@@ -70,9 +76,15 @@
 </template>
 
 <script setup lang="ts">
+import { useTextAnimation } from '@/composables/useTextAnimation'
 import heroBg from '@/assets/img/landing/digital-agency/hero-bg.svg'
 import { Vue3Lottie } from 'vue3-lottie'
 import digitalAgencyAnim from '@/assets/json/animation-digital-agency.json'
 import Jarallax from '@/components/Jarallax.vue'
 import VideoPopup from '@/components/VideoPopup.vue'
+
+// Import the external SCSS file
+import '@/assets/scss/components/textAnimation.scss'
+
+const { currentText, exiting, entering } = useTextAnimation()
 </script>

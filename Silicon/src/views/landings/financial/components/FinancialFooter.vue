@@ -4,8 +4,8 @@
       <b-row class="pb-5">
         <b-col lg="4" md="6">
           <div class="navbar-brand text-dark p-0 me-0 mb-3 mb-lg-4">
-            <img :src="logo" width="47" alt="Sépia" />
-            Sépia
+            <img :src="logo" width="47" alt="Sepia" />
+            Sepia
           </div>
           <p class="fs-sm text-light opacity-70 pb-lg-3 mb-4">
             Proin ipsum pharetra, senectus eget scelerisque varius pretium platea velit. Lacus, eget
@@ -85,21 +85,21 @@
             </b-col>
             <b-col xl="4" lg="5" class="pt-2 pt-lg-0">
               <h6 class="mb-2">Contact Us</h6>
-              <a href="mailto:sép.ia@gmail.com" class="fw-medium">sép.ia@gmail.com</a>
+              <a href="mailto:Sepia@gmail.com" class="fw-medium">Sepia@gmail.com</a>
             </b-col>
           </div>
         </b-col>
       </b-row>
       <p class="nav d-block fs-xs text-center text-md-start pb-2 pb-lg-0 mb-0">
         <span class="text-light opacity-50">&copy; All rights reserved. Made by </span>
-        <a class="nav-link d-inline-block p-0" target="_blank" rel="noopener">Sép.ia</a>
+        <a class="nav-link d-inline-block p-0" target="_blank" rel="noopener">Sepia</a>
       </p>
     </b-container>
   </footer>
 </template>
 
 <script setup lang="ts">
-import logo from '@/assets/img/logo.svg';
+import logo from '@/assets/img/animated logo.svg';
 import { Icon } from '@iconify/vue';
 import EnvelopeIcon from '@iconify/icons-bx/bx-envelope';
 </script>

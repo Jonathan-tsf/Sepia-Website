@@ -6,7 +6,7 @@
       <h1 class="pb-1">{{ title }}</h1>
       <p class="text-muted fs-lg mb-2">{{ description }}</p>
     </div>
-    <span v-if="isSépiaComponent" class="badge bg-warning mb-2">Sépia component</span>
+    <span v-if="isSépiaComponent" class="badge bg-warning mb-2">Sepia component</span>
 
     <a
       v-else

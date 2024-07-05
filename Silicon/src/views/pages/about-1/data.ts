@@ -193,7 +193,7 @@ export const teamMemberData: TeamMemberType[] = [
   }
 ]
 
-const socialId: string[] = ['Sépia', '@Sépia', 'Sépia inc.']
+const socialId: string[] = ['Sepia', '@Sepia', 'Sepia inc.']
 export const socialNetworkData: SocialNetworkType[] = [
   {
     icon: FacebookIcon,

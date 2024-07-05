@@ -1,6 +1,6 @@
 import type { ChildrenLinkType, NavLinkType, SidebarLinkType } from '@/layouts/type'
 import DesktopIcon from '@iconify/icons-bx/desktop'
-import landingsImg from '@/assets/img/landings.jpg'
+import landingsImg from '@/assets/img/nav projects.png'
 
 export const navbarLinkData: NavLinkType[] = [
   {
@@ -12,7 +12,7 @@ export const navbarLinkData: NavLinkType[] = [
     image: landingsImg,
     links: [
       {
-        title: 'Discover',
+        title: 'Meet',
         children: [
           {
             title: 'Olivia',
@@ -21,6 +21,10 @@ export const navbarLinkData: NavLinkType[] = [
           {
             title: 'Riley',
             link: { name: 'landings.saas-2' }
+          },
+          {
+            title: 'Mistory',
+            link: { name: 'landings.saas-3' }
           },
 
         ]
@@ -243,7 +247,7 @@ export const uiKitSidebarLinkData: SidebarLinkType[] = [
         externalLink: 'https://bootstrap-vue-next.github.io/bootstrap-vue-next/'
       },
       {
-        title: 'Sépia',
+        title: 'Sepia',
         link: {
           name: 'ui.utilities'
         }

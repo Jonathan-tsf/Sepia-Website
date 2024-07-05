@@ -5,8 +5,8 @@
         <b-col lg="5" xl="4" class="mb-4 mb-md-5 mb-lg-0">
           <div class="d-flex align-items-center pb-3 mb-1">
             <div class="navbar-brand text-dark p-0 pe-1 me-0">
-              <img :src="logoImg" width="47" alt="Sépia" />
-              Sépia
+              <img :src="logoImg" width="47" alt="Sepia" />
+              Sepia
             </div>
             <hr class="vr mt-2 mx-3" style="height: 26px" />
             <div class="text-white fw-semibold ps-1">Banking made easy.</div>
@@ -119,7 +119,7 @@
             
             target="_blank"
             rel="noopener"
-            >Sép.ia</a
+            >Sepia</a
           >
         </p>
       </div>
@@ -128,7 +128,7 @@
 </template>
 
 <script setup lang="ts">
-import logoImg from '@/assets/img/logo.svg'
+import logoImg from '@/assets/img/animated logo.svg'
 import { Icon } from '@iconify/vue'
 import MapIcon from '@iconify/icons-bx/bx-map'
 import FacebookIcon from '@iconify/icons-bx/bxl-facebook'
@@ -202,7 +202,7 @@ const footerLinks: FooterLinkType[] = [
     title: 'Resources',
     children: [
       {
-        title: 'About Sépia',
+        title: 'About Sepia',
         link: { name: '' }
       },
       {
@@ -222,7 +222,7 @@ const footerLinks: FooterLinkType[] = [
         link: { name: '' }
       },
       {
-        title: 'Careers at Sépia',
+        title: 'Careers at Sepia',
         link: { name: '' }
       }
     ]

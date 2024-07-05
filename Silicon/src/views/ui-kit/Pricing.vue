@@ -3,7 +3,7 @@
     <UIKitPageTitle
       title="Pricing"
       description="Quickly build pricing plans for subscription based pricing model."
-      :is-Sépia-component="true"
+      :is-Sepia-component="true"
     />
 
     <!-- Cards: Style 1 -->

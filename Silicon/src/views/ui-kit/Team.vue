@@ -3,7 +3,7 @@
     <UIKitPageTitle
       title="Team"
       description="Component designed to showcase team members. Comes in different styles."
-      :is-Sépia-component="true"
+      :is-Sepia-component="true"
     />
 
     <!-- Style 1 -->

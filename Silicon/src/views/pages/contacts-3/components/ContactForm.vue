@@ -21,7 +21,7 @@
           <h2 class="display-1 text-gradient-primary pb-sm-2 pb-md-3 mb-3">Let's talk!</h2>
           <div class="nav d-block lead pt-lg-5">
             <a href="#" class="nav-link fw-normal text-decoration-underline p-0 mb-4"
-              >sép.ia@gmail.com</a
+              >Sepia@gmail.com</a
             >
           </div>
         </b-col>

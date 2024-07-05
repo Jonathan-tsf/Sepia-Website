@@ -3,7 +3,7 @@
     <UIKitPageTitle
       title="Blog components"
       description="Components that are related to the blog / news section of the website."
-      :is-Sépia-component="true"
+      :is-Sepia-component="true"
     />
 
     <!-- Post preview card: Vertical (grid) -->

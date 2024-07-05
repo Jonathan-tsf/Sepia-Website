@@ -1,5 +1,5 @@
 <template>
-  <Navbar is-dark />
+  <Navbar/>
 
   <Saas2Hero />
 

@@ -17,8 +17,8 @@
             :to="{ name: 'ui.typography' }"
             class="navbar-brand text-dark d-none d-lg-flex py-0"
           >
-            <img :src="logo" width="47" alt="Sépia" />
-            Sépia
+            <img :src="logo" width="47" alt="Sepia" />
+            Sepia
           </router-link>
           <div class="">
             <b-badge
@@ -94,7 +94,7 @@ import simplebar from 'simplebar-vue'
 
 import { useThemeStore } from '@/stores/themes'
 
-import logo from '@/assets/img/logo.svg'
+import logo from '@/assets/img/animated logo.svg'
 
 import router from '@/router'
 

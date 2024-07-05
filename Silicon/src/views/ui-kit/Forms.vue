@@ -819,7 +819,7 @@ const anchorNavigationData = [
 const inputType = ref({
   text: 'Artisanal kale',
   search: 'How do I shoot web',
-  email: 'sép.ia@gmail.com',
+  email: 'Sepia@gmail.com',
   url: 'https://getbootstrap.com',
   phone: '1-(770)-334-2518',
   password: 'mypasswordexample',

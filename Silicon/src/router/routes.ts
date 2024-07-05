@@ -3,7 +3,7 @@ const authRoutes = [
     path: '/sign-in',
     name: 'account.sign-in',
     meta: {
-      title: 'Account - Sign In | Sépia'
+      title: 'Account - Sign In | Sepia'
     },
     component: () => import('@/views/account/sign-in/index.vue')
   },
@@ -11,7 +11,7 @@ const authRoutes = [
     path: '/sign-up',
     name: 'account.sign-up',
     meta: {
-      title: 'Account - Sign Up | Sépia'
+      title: 'Account - Sign Up | Sepia'
     },
     component: () => import('@/views/account/sign-up/index.vue')
   }
@@ -22,7 +22,7 @@ const errorPageRoutes = [
     path: '/error-404-1',
     name: 'pages.error-404-1',
     meta: {
-      title: '404 Not Found v1 | Sépia'
+      title: '404 Not Found v1 | Sepia'
     },
     component: () => import('@/views/pages/error-404-1/index.vue')
   },
@@ -30,7 +30,7 @@ const errorPageRoutes = [
     path: '/error-404-2',
     name: 'pages.error-404-2',
     meta: {
-      title: '404 Not Found v2 | Sépia'
+      title: '404 Not Found v2 | Sepia'
     },
     component: () => import('@/views/pages/error-404-2/index.vue')
   },
@@ -45,7 +45,7 @@ const landingRoute = [
     path: '',
     name: 'landing',
     meta: {
-      title: 'Sép.ia',
+      title: 'Sepia',
       authRequired: false
     },
     component: () => import('@/views/landings/digital-agency/index.vue')
@@ -62,7 +62,7 @@ const landingsRoutes = [
         path: '/mobile-app-1',
         name: 'landings.mobile-app-1',
         meta: {
-          title: 'Mobile App Showcase Landing v.1 | Sépia'
+          title: 'Mobile App Showcase Landing v.1 | Sepia'
         },
         component: () => import('@/views/landings/mobile-app-1/index.vue')
       },
@@ -70,7 +70,7 @@ const landingsRoutes = [
         path: '/mobile-app-2',
         name: 'landings.mobile-app-2',
         meta: {
-          title: 'Mobile App Showcase Landing v.2 | Sépia'
+          title: 'Mobile App Showcase Landing v.2 | Sepia'
         },
         component: () => import('@/views/landings/mobile-app-2/index.vue')
       },
@@ -78,7 +78,7 @@ const landingsRoutes = [
         path: '/mobile-app-3',
         name: 'landings.mobile-app-3',
         meta: {
-          title: 'Mobile App Showcase Landing v.3 | Sépia'
+          title: 'Mobile App Showcase Landing v.3 | Sepia'
         },
         component: () => import('@/views/landings/mobile-app-3/index.vue')
       },
@@ -86,7 +86,7 @@ const landingsRoutes = [
         path: '/product',
         name: 'landings.product',
         meta: {
-          title: 'Product Landing | Sépia'
+          title: 'Product Landing | Sepia'
         },
         component: () => import('@/views/landings/product/index.vue')
       },
@@ -94,7 +94,7 @@ const landingsRoutes = [
         path: '/saas-1',
         name: 'landings.saas-1',
         meta: {
-          title: 'SaaS Landing v.1 | Sépia'
+          title: 'SaaS Landing v.1 | Sepia'
         },
         component: () => import('@/views/landings/saas-1/index.vue')
       },
@@ -102,7 +102,7 @@ const landingsRoutes = [
         path: '/saas-2',
         name: 'landings.saas-2',
         meta: {
-          title: 'SaaS Landing v.2 | Sépia'
+          title: 'SaaS Landing v.2 | Sepia'
         },
         component: () => import('@/views/landings/saas-2/index.vue')
       },
@@ -110,7 +110,7 @@ const landingsRoutes = [
         path: '/saas-3',
         name: 'landings.saas-3',
         meta: {
-          title: 'SaaS Landing v.3 | Sépia'
+          title: 'SaaS Landing v.3 | Sepia'
         },
         component: () => import('@/views/landings/saas-3/index.vue')
       },
@@ -118,7 +118,7 @@ const landingsRoutes = [
         path: '/saas-4',
         name: 'landings.saas-4',
         meta: {
-          title: 'SaaS Landing v.4 | Sépia'
+          title: 'SaaS Landing v.4 | Sepia'
         },
         component: () => import('@/views/landings/saas-4/index.vue')
       },
@@ -126,7 +126,7 @@ const landingsRoutes = [
         path: '/saas-5',
         name: 'landings.saas-5',
         meta: {
-          title: 'SaaS Landing v.5 | Sépia'
+          title: 'SaaS Landing v.5 | Sepia'
         },
         component: () => import('@/views/landings/saas-5/index.vue')
       },
@@ -134,7 +134,7 @@ const landingsRoutes = [
         path: '/startup',
         name: 'landings.startup',
         meta: {
-          title: 'Startup Landing | Sépia'
+          title: 'Startup Landing | Sepia'
         },
         component: () => import('@/views/landings/startup/index.vue')
       },
@@ -142,7 +142,7 @@ const landingsRoutes = [
         path: '/financial',
         name: 'landings.financial',
         meta: {
-          title: 'Financial Consulting Landing | Sépia'
+          title: 'Financial Consulting Landing | Sepia'
         },
         component: () => import('@/views/landings/financial/index.vue')
       },
@@ -150,7 +150,7 @@ const landingsRoutes = [
         path: '/online-course',
         name: 'landings.online-course',
         meta: {
-          title: 'Online Courses Landing | Sépia'
+          title: 'Online Courses Landing | Sepia'
         },
         component: () => import('@/views/landings/online-course/index.vue')
       },
@@ -158,7 +158,7 @@ const landingsRoutes = [
         path: '/medical',
         name: 'landings.medical',
         meta: {
-          title: 'Medical Landing | Sépia'
+          title: 'Medical Landing | Sepia'
         },
         component: () => import('@/views/landings/medical/index.vue')
       },
@@ -166,7 +166,7 @@ const landingsRoutes = [
         path: '/software-dev-agency-1',
         name: 'landings.dev-agency-1',
         meta: {
-          title: 'Software Dev Agency Landing v.1 | Sépia'
+          title: 'Software Dev Agency Landing v.1 | Sepia'
         },
         component: () => import('@/views/landings/dev-agency-1/index.vue')
       },
@@ -174,7 +174,7 @@ const landingsRoutes = [
         path: '/software-dev-agency-2',
         name: 'landings.dev-agency-2',
         meta: {
-          title: 'Software Dev Agency Landing v.2 | Sépia'
+          title: 'Software Dev Agency Landing v.2 | Sepia'
         },
         component: () => import('@/views/landings/dev-agency-2/index.vue')
       },
@@ -182,7 +182,7 @@ const landingsRoutes = [
         path: '/software-dev-agency-3',
         name: 'landings.dev-agency-3',
         meta: {
-          title: 'Software Dev Agency Landing v.3 | Sépia'
+          title: 'Software Dev Agency Landing v.3 | Sepia'
         },
         component: () => import('@/views/landings/dev-agency-3/index.vue')
       },
@@ -190,7 +190,7 @@ const landingsRoutes = [
         path: '/conference',
         name: 'landings.conference',
         meta: {
-          title: 'Conference Landing | Sépia'
+          title: 'Conference Landing | Sepia'
         },
         component: () => import('@/views/landings/conference/index.vue')
       },
@@ -198,7 +198,7 @@ const landingsRoutes = [
         path: '/digital-agency',
         name: 'landings.digital-agency',
         meta: {
-          title: 'Digital Agency Landing | Sépia'
+          title: 'Digital Agency Landing | Sepia'
         },
         component: () => import('@/views/landings/digital-agency/index.vue')
       },
@@ -206,7 +206,7 @@ const landingsRoutes = [
         path: '/blog',
         name: 'landings.blog',
         meta: {
-          title: 'Blog Homepage | Sépia'
+          title: 'Blog Homepage | Sepia'
         },
         component: () => import('@/views/landings/blog/index.vue')
       }
@@ -224,7 +224,7 @@ const pagesRoutes = [
         path: 'about-1',
         name: 'pages.about-1',
         meta: {
-          title: 'About v.1 | Sépia'
+          title: 'About v.1 | Sepia'
         },
         component: () => import('@/views/pages/about-1/index.vue')
       },
@@ -232,7 +232,7 @@ const pagesRoutes = [
         path: 'about-2',
         name: 'pages.about-2',
         meta: {
-          title: 'About v.2 | Sépia'
+          title: 'About v.2 | Sepia'
         },
         component: () => import('@/views/pages/about-2/index.vue')
       },
@@ -240,7 +240,7 @@ const pagesRoutes = [
         path: 'about-3',
         name: 'pages.about-3',
         meta: {
-          title: 'About v.3 | Sépia'
+          title: 'About v.3 | Sepia'
         },
         component: () => import('@/views/pages/about-3/index.vue')
       },
@@ -248,7 +248,7 @@ const pagesRoutes = [
         path: 'list-view-with-sidebar',
         name: 'pages.list-view-with-sidebar',
         meta: {
-          title: 'Blog List With Sidebar | Sépia'
+          title: 'Blog List With Sidebar | Sepia'
         },
         component: () => import('@/views/pages/list-view-with-sidebar/index.vue')
       },
@@ -256,7 +256,7 @@ const pagesRoutes = [
         path: 'grid-view-with-sidebar',
         name: 'pages.grid-view-with-sidebar',
         meta: {
-          title: 'Blog Grid With Sidebar | Sépia'
+          title: 'Blog Grid With Sidebar | Sepia'
         },
         component: () => import('@/views/pages/grid-view-with-sidebar/index.vue')
       },
@@ -264,7 +264,7 @@ const pagesRoutes = [
         path: 'list-view-no-sidebar',
         name: 'pages.list-view-no-sidebar',
         meta: {
-          title: 'Blog List With No Sidebar | Sépia'
+          title: 'Blog List With No Sidebar | Sepia'
         },
         component: () => import('@/views/pages/list-view-no-sidebar/index.vue')
       },
@@ -272,7 +272,7 @@ const pagesRoutes = [
         path: 'grid-view-no-sidebar',
         name: 'pages.grid-view-no-sidebar',
         meta: {
-          title: 'Blog Grid With No Sidebar | Sépia'
+          title: 'Blog Grid With No Sidebar | Sepia'
         },
         component: () => import('@/views/pages/grid-view-no-sidebar/index.vue')
       },
@@ -280,7 +280,7 @@ const pagesRoutes = [
         path: 'simple-feed',
         name: 'pages.simple-feed',
         meta: {
-          title: 'Blog Simple Feed | Sépia'
+          title: 'Blog Simple Feed | Sepia'
         },
         component: () => import('@/views/pages/simple-feed/index.vue')
       },
@@ -288,7 +288,7 @@ const pagesRoutes = [
         path: 'single-post',
         name: 'pages.single-post',
         meta: {
-          title: 'Blog Simple Post | Sépia'
+          title: 'Blog Simple Post | Sepia'
         },
         component: () => import('@/views/pages/single-post/index.vue')
       },
@@ -296,7 +296,7 @@ const pagesRoutes = [
         path: 'podcast',
         name: 'pages.podcast',
         meta: {
-          title: 'Blog Single Podcast | Sépia'
+          title: 'Blog Single Podcast | Sepia'
         },
         component: () => import('@/views/pages/podcast/index.vue')
       },
@@ -304,7 +304,7 @@ const pagesRoutes = [
         path: 'grid-view',
         name: 'pages.grid-view',
         meta: {
-          title: 'Portfolio Grid View | Sépia'
+          title: 'Portfolio Grid View | Sepia'
         },
         component: () => import('@/views/pages/grid-view/index.vue')
       },
@@ -312,7 +312,7 @@ const pagesRoutes = [
         path: 'list-view',
         name: 'pages.list-view',
         meta: {
-          title: 'Portfolio List View | Sépia'
+          title: 'Portfolio List View | Sepia'
         },
         component: () => import('@/views/pages/list-view/index.vue')
       },
@@ -320,7 +320,7 @@ const pagesRoutes = [
         path: 'slider',
         name: 'pages.slider',
         meta: {
-          title: 'Portfolio Slider View | Sépia'
+          title: 'Portfolio Slider View | Sepia'
         },
         component: () => import('@/views/pages/slider/index.vue')
       },
@@ -328,7 +328,7 @@ const pagesRoutes = [
         path: 'courses',
         name: 'pages.courses',
         meta: {
-          title: 'Courses | Sépia'
+          title: 'Courses | Sepia'
         },
         component: () => import('@/views/pages/courses/index.vue')
       },
@@ -336,7 +336,7 @@ const pagesRoutes = [
         path: 'single-project',
         name: 'pages.single-project',
         meta: {
-          title: 'Portfolio Single Project | Sépia'
+          title: 'Portfolio Single Project | Sepia'
         },
         component: () => import('@/views/pages/single-project/index.vue')
       },
@@ -344,7 +344,7 @@ const pagesRoutes = [
         path: 'single-course',
         name: 'pages.single-course',
         meta: {
-          title: 'Single Course | Sépia'
+          title: 'Single Course | Sepia'
         },
         component: () => import('@/views/pages/single-course/index.vue')
       },
@@ -352,7 +352,7 @@ const pagesRoutes = [
         path: 'services-1',
         name: 'pages.services-1',
         meta: {
-          title: 'Services v.1 | Sépia'
+          title: 'Services v.1 | Sepia'
         },
         component: () => import('@/views/pages/services-1/index.vue')
       },
@@ -360,7 +360,7 @@ const pagesRoutes = [
         path: 'services-2',
         name: 'pages.services-2',
         meta: {
-          title: 'Services v.2  | Sépia'
+          title: 'Services v.2  | Sepia'
         },
         component: () => import('@/views/pages/services-2/index.vue')
       },
@@ -368,7 +368,7 @@ const pagesRoutes = [
         path: 'services-single-1',
         name: 'pages.services-single-1',
         meta: {
-          title: 'Service Details v.1 | Sépia'
+          title: 'Service Details v.1 | Sepia'
         },
         component: () => import('@/views/pages/services-single-1/index.vue')
       },
@@ -376,7 +376,7 @@ const pagesRoutes = [
         path: 'services-single-2',
         name: 'pages.services-single-2',
         meta: {
-          title: 'Service Details v.2 | Sépia'
+          title: 'Service Details v.2 | Sepia'
         },
         component: () => import('@/views/pages/services-single-2/index.vue')
       },
@@ -384,7 +384,7 @@ const pagesRoutes = [
         path: 'pricing',
         name: 'pages.pricing',
         meta: {
-          title: 'Pricing | Sépia'
+          title: 'Pricing | Sepia'
         },
         component: () => import('@/views/pages/pricing/index.vue')
       },
@@ -392,7 +392,7 @@ const pagesRoutes = [
         path: 'contacts-1',
         name: 'pages.contacts-1',
         meta: {
-          title: 'Contacts v.1 | Sépia'
+          title: 'Contacts v.1 | Sepia'
         },
         component: () => import('@/views/pages/contacts-1/index.vue')
       },
@@ -400,7 +400,7 @@ const pagesRoutes = [
         path: 'contacts-2',
         name: 'pages.contacts-2',
         meta: {
-          title: 'Contacts v.2 | Sépia'
+          title: 'Contacts v.2 | Sepia'
         },
         component: () => import('@/views/pages/contacts-2/index.vue')
       },
@@ -408,7 +408,7 @@ const pagesRoutes = [
         path: 'contacts-3',
         name: 'pages.contacts-3',
         meta: {
-          title: 'Contacts v.3 | Sépia'
+          title: 'Contacts v.3 | Sepia'
         },
         component: () => import('@/views/pages/contacts-3/index.vue')
       }
@@ -426,7 +426,7 @@ const accountRoutes = [
         path: 'details',
         name: 'account.details',
         meta: {
-          title: 'Account - Details | Sépia'
+          title: 'Account - Details | Sepia'
         },
         component: () => import('@/views/account/details/index.vue')
       },
@@ -434,7 +434,7 @@ const accountRoutes = [
         path: 'security',
         name: 'account.security',
         meta: {
-          title: 'Account - Security | Sépia'
+          title: 'Account - Security | Sepia'
         },
         component: () => import('@/views/account/security/index.vue')
       },
@@ -442,7 +442,7 @@ const accountRoutes = [
         path: 'notifications',
         name: 'account.notifications',
         meta: {
-          title: 'Account - Notification | Sépia'
+          title: 'Account - Notification | Sepia'
         },
         component: () => import('@/views/account/notifications/index.vue')
       },
@@ -450,7 +450,7 @@ const accountRoutes = [
         path: 'messages',
         name: 'account.messages',
         meta: {
-          title: 'Account - Message | Sépia'
+          title: 'Account - Message | Sepia'
         },
         component: () => import('@/views/account/messages/index.vue')
       },
@@ -458,7 +458,7 @@ const accountRoutes = [
         path: 'saved-items',
         name: 'account.saved-items',
         meta: {
-          title: 'Account - Saved Items | Sépia'
+          title: 'Account - Saved Items | Sepia'
         },
         component: () => import('@/views/account/saved-items/index.vue')
       },
@@ -466,7 +466,7 @@ const accountRoutes = [
         path: 'collections',
         name: 'account.collections',
         meta: {
-          title: 'Account - Collections | Sépia'
+          title: 'Account - Collections | Sepia'
         },
         component: () => import('@/views/account/collections/index.vue')
       },
@@ -474,7 +474,7 @@ const accountRoutes = [
         path: 'payment',
         name: 'account.payment',
         meta: {
-          title: 'Account - Payment | Sépia'
+          title: 'Account - Payment | Sepia'
         },
         component: () => import('@/views/account/payment/index.vue')
       }
@@ -492,7 +492,7 @@ const uiRoutes = [
         path: 'typography',
         name: 'ui.typography',
         meta: {
-          title: 'Typography | Sépia UI Kit'
+          title: 'Typography | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/Typography.vue')
       },
@@ -500,7 +500,7 @@ const uiRoutes = [
         path: 'code',
         name: 'ui.code',
         meta: {
-          title: 'Code | Sépia UI Kit'
+          title: 'Code | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/Code.vue')
       },
@@ -508,7 +508,7 @@ const uiRoutes = [
         path: 'images',
         name: 'ui.images',
         meta: {
-          title: 'Images | Sépia UI Kit'
+          title: 'Images | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/Images.vue')
       },
@@ -516,7 +516,7 @@ const uiRoutes = [
         path: 'tables',
         name: 'ui.tables',
         meta: {
-          title: 'Tables | Sépia UI Kit'
+          title: 'Tables | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/Tables.vue')
       },
@@ -524,7 +524,7 @@ const uiRoutes = [
         path: 'accordion',
         name: 'ui.accordion',
         meta: {
-          title: 'Accordion | Sépia UI Kit'
+          title: 'Accordion | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/Accordion.vue')
       },
@@ -532,7 +532,7 @@ const uiRoutes = [
         path: 'alerts',
         name: 'ui.alerts',
         meta: {
-          title: 'Alerts | Sépia UI Kit'
+          title: 'Alerts | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/Alerts.vue')
       },
@@ -540,7 +540,7 @@ const uiRoutes = [
         path: 'audio-player',
         name: 'ui.audio-player',
         meta: {
-          title: 'AudioPlayer | Sépia UI Kit'
+          title: 'AudioPlayer | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/AudioPlayer.vue')
       },
@@ -548,7 +548,7 @@ const uiRoutes = [
         path: 'badges',
         name: 'ui.badges',
         meta: {
-          title: 'Badges | Sépia UI Kit'
+          title: 'Badges | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/Badges.vue')
       },
@@ -556,7 +556,7 @@ const uiRoutes = [
         path: 'blog-components',
         name: 'ui.blog-components',
         meta: {
-          title: 'Blog Components | Sépia UI Kit'
+          title: 'Blog Components | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/BlogComponents.vue')
       },
@@ -564,7 +564,7 @@ const uiRoutes = [
         path: 'breadcrumb',
         name: 'ui.breadcrumb',
         meta: {
-          title: 'Breadcrumb | Sépia UI Kit'
+          title: 'Breadcrumb | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/Breadcrumb.vue')
       },
@@ -572,7 +572,7 @@ const uiRoutes = [
         path: 'buttons',
         name: 'ui.buttons',
         meta: {
-          title: 'Buttons | Sépia UI Kit'
+          title: 'Buttons | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/Buttons.vue')
       },
@@ -580,7 +580,7 @@ const uiRoutes = [
         path: 'buttons-group',
         name: 'ui.buttons-group',
         meta: {
-          title: 'ButtonGroup | Sépia UI Kit'
+          title: 'ButtonGroup | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/ButtonGroup.vue')
       },
@@ -588,7 +588,7 @@ const uiRoutes = [
         path: 'card',
         name: 'ui.card',
         meta: {
-          title: 'Card | Sépia UI Kit'
+          title: 'Card | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/Card.vue')
       },
@@ -596,7 +596,7 @@ const uiRoutes = [
         path: 'carousel',
         name: 'ui.carousel',
         meta: {
-          title: 'Carousel | Sépia UI Kit'
+          title: 'Carousel | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/Carousel.vue')
       },
@@ -604,7 +604,7 @@ const uiRoutes = [
         path: 'collapse',
         name: 'ui.collapse',
         meta: {
-          title: 'Collapse | Sépia UI Kit'
+          title: 'Collapse | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/Collapse.vue')
       },
@@ -612,7 +612,7 @@ const uiRoutes = [
         path: 'dropdowns',
         name: 'ui.dropdowns',
         meta: {
-          title: 'Dropdowns | Sépia UI Kit'
+          title: 'Dropdowns | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/Dropdowns.vue')
       },
@@ -620,7 +620,7 @@ const uiRoutes = [
         path: 'forms',
         name: 'ui.forms',
         meta: {
-          title: 'Forms | Sépia UI Kit'
+          title: 'Forms | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/Forms.vue')
       },
@@ -628,7 +628,7 @@ const uiRoutes = [
         path: 'gallery',
         name: 'ui.gallery',
         meta: {
-          title: 'Gallery | Sépia UI Kit'
+          title: 'Gallery | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/Gallery.vue')
       },
@@ -636,7 +636,7 @@ const uiRoutes = [
         path: 'image-comparison-slider',
         name: 'ui.image-comparison-slider',
         meta: {
-          title: 'Image Comparison Slider | Sépia UI Kit'
+          title: 'Image Comparison Slider | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/ImageComparisonSlider.vue')
       },
@@ -644,7 +644,7 @@ const uiRoutes = [
         path: 'input-group',
         name: 'ui.input-group',
         meta: {
-          title: 'InputGroup | Sépia UI Kit'
+          title: 'InputGroup | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/InputGroup.vue')
       },
@@ -652,7 +652,7 @@ const uiRoutes = [
         path: 'list-group',
         name: 'ui.list-group',
         meta: {
-          title: 'ListGroup | Sépia UI Kit'
+          title: 'ListGroup | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/ListGroup.vue')
       },
@@ -660,7 +660,7 @@ const uiRoutes = [
         path: 'modal',
         name: 'ui.modal',
         meta: {
-          title: 'Modal | Sépia UI Kit'
+          title: 'Modal | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/Modal.vue')
       },
@@ -668,7 +668,7 @@ const uiRoutes = [
         path: 'navbar',
         name: 'ui.navbar',
         meta: {
-          title: 'Navbar | Sépia UI Kit'
+          title: 'Navbar | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/Navbar.vue')
       },
@@ -676,7 +676,7 @@ const uiRoutes = [
         path: 'offcanvas',
         name: 'ui.offcanvas',
         meta: {
-          title: 'Offcanvas | Sépia UI Kit'
+          title: 'Offcanvas | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/Offcanvas.vue')
       },
@@ -684,7 +684,7 @@ const uiRoutes = [
         path: 'pagination',
         name: 'ui.pagination',
         meta: {
-          title: 'Pagination | Sépia UI Kit'
+          title: 'Pagination | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/Pagination.vue')
       },
@@ -692,7 +692,7 @@ const uiRoutes = [
         path: 'parallax',
         name: 'ui.parallax',
         meta: {
-          title: 'Parallax | Sépia UI Kit'
+          title: 'Parallax | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/Parallax.vue')
       },
@@ -700,7 +700,7 @@ const uiRoutes = [
         path: 'pills',
         name: 'ui.pills',
         meta: {
-          title: 'Pills | Sépia UI Kit'
+          title: 'Pills | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/Pills.vue')
       },
@@ -708,7 +708,7 @@ const uiRoutes = [
         path: 'placeholders',
         name: 'ui.placeholders',
         meta: {
-          title: 'Placeholders | Sépia UI Kit'
+          title: 'Placeholders | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/Placeholders.vue')
       },
@@ -716,7 +716,7 @@ const uiRoutes = [
         path: 'popovers',
         name: 'ui.popovers',
         meta: {
-          title: 'Popovers | Sépia UI Kit'
+          title: 'Popovers | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/Popovers.vue')
       },
@@ -724,7 +724,7 @@ const uiRoutes = [
         path: 'portfolio-components',
         name: 'ui.portfolio-components',
         meta: {
-          title: 'Portfolio Components | Sépia UI Kit'
+          title: 'Portfolio Components | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/PortfolioComponents.vue')
       },
@@ -732,7 +732,7 @@ const uiRoutes = [
         path: 'pricing',
         name: 'ui.pricing',
         meta: {
-          title: 'Pricing | Sépia UI Kit'
+          title: 'Pricing | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/Pricing.vue')
       },
@@ -740,7 +740,7 @@ const uiRoutes = [
         path: 'progressbar',
         name: 'ui.progressbar',
         meta: {
-          title: 'Progressbar | Sépia UI Kit'
+          title: 'Progressbar | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/Progressbar.vue')
       },
@@ -748,7 +748,7 @@ const uiRoutes = [
         path: 'social-buttons',
         name: 'ui.social-buttons',
         meta: {
-          title: 'Social Buttons | Sépia UI Kit'
+          title: 'Social Buttons | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/SocialButtons.vue')
       },
@@ -756,7 +756,7 @@ const uiRoutes = [
         path: 'spinners',
         name: 'ui.spinners',
         meta: {
-          title: 'Spinners | Sépia UI Kit'
+          title: 'Spinners | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/Spinners.vue')
       },
@@ -764,7 +764,7 @@ const uiRoutes = [
         path: 'steps',
         name: 'ui.steps',
         meta: {
-          title: 'Steps | Sépia UI Kit'
+          title: 'Steps | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/Steps.vue')
       },
@@ -772,7 +772,7 @@ const uiRoutes = [
         path: 'tabs',
         name: 'ui.tabs',
         meta: {
-          title: 'Tabs | Sépia UI Kit'
+          title: 'Tabs | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/Tabs.vue')
       },
@@ -780,7 +780,7 @@ const uiRoutes = [
         path: 'team',
         name: 'ui.team',
         meta: {
-          title: 'Team | Sépia UI Kit'
+          title: 'Team | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/Team.vue')
       },
@@ -788,7 +788,7 @@ const uiRoutes = [
         path: 'testimonial',
         name: 'ui.testimonial',
         meta: {
-          title: 'Testimonial | Sépia UI Kit'
+          title: 'Testimonial | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/Testimonial.vue')
       },
@@ -796,7 +796,7 @@ const uiRoutes = [
         path: 'toasts',
         name: 'ui.toasts',
         meta: {
-          title: 'Toast | Sépia UI Kit'
+          title: 'Toast | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/Toast.vue')
       },
@@ -804,7 +804,7 @@ const uiRoutes = [
         path: 'tooltips',
         name: 'ui.tooltips',
         meta: {
-          title: 'Tooltips | Sépia UI Kit'
+          title: 'Tooltips | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/Tooltips.vue')
       },
@@ -812,7 +812,7 @@ const uiRoutes = [
         path: 'video-popup',
         name: 'ui.video-popup',
         meta: {
-          title: 'VideoPopup | Sépia UI Kit'
+          title: 'VideoPopup | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/VideoPopup.vue')
       },
@@ -820,7 +820,7 @@ const uiRoutes = [
         path: 'utilities',
         name: 'ui.utilities',
         meta: {
-          title: 'Utilities | Sépia UI Kit'
+          title: 'Utilities | Sepia UI Kit'
         },
         component: () => import('@/views/ui-kit/Utilities.vue')
       }

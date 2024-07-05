@@ -3,7 +3,7 @@
     <UIKitPageTitle
       title="Portfolio components"
       description="Components that are related to the portfolio section of the website."
-      :is-Sépia-component="true"
+      :is-Sepia-component="true"
     />
 
     <!-- Grid view: Card style 1 -->

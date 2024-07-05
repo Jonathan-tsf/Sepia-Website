@@ -27,7 +27,7 @@ export const featureData: FeatureType[] = [
   {
     image: analyticsImg,
     title: 'Engagement Analytics',
-    description: 'Track how potential employers interact with your CV chatbot, providing invaluable insights into what captures their interest.'
+    description: 'Track how potential employers interact with your CV Intelligent Assistant, providing invaluable insights into what captures their interest.'
   },
   {
     image: groupImg,
@@ -42,7 +42,7 @@ export const featureData: FeatureType[] = [
   {
     image: tasksImg,
     title: 'Customizable Sections',
-    description: 'Easily customize sections of your CV through Riley, tailoring the chatbot to highlight your most compelling skills and achievements.'
+    description: 'Easily customize sections of your CV through Riley, tailoring the Intelligent Assistant to highlight your most compelling skills and achievements.'
   },
   {
     image: securityImg,

@@ -3,7 +3,7 @@
     <UIKitPageTitle
       title="Progress bars"
       description="Custom progress bars featuring support for stacked bars, animated backgrounds, and text labels."
-      :is-Sépia-component="true"
+      :is-Sepia-component="true"
     />
 
     <!-- Color variations (thick) -->

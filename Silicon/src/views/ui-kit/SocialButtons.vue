@@ -3,7 +3,7 @@
     <UIKitPageTitle
       title="Social buttons"
       description="Display links to your social network accounts with social icon buttons."
-      :is-Sépia-component="true"
+      :is-Sepia-component="true"
     />
 
     <!-- Solid buttons -->
