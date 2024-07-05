@@ -24,7 +24,7 @@ export const navbarLinkData: NavLinkType[] = [
           },
           {
             title: 'Mistory',
-            link: { name: 'landings.saas-3' }
+            externalUrl: 'http://34.229.81.248:5000/start_game'
           },
 
         ]

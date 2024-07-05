@@ -17,7 +17,6 @@
     border: none !important; // stylelint-disable-line declaration-no-important
   }
   &::after {
-    margin-right: -0.25rem;
     content: '\ea4a';
   }
   &.fs-sm::after {

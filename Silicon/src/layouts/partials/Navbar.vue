@@ -8,7 +8,7 @@
     'border-bottom': borderBottom,
     'fixed-top': fixedTop,
     'navbar-sticky': navbarSticky,
-'border-bottom border-light': isBorder
+    'border-bottom border-light': isBorder
   }">
     <div class="container px-3">
       <router-link class="navbar-brand pe-3" to="/">
@@ -25,9 +25,7 @@
               </router-link>
 
               <template v-else>
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">{{
-                  item.title
-                }}</a>
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">{{ item.title }}</a>
                 <div class="dropdown-menu p-0">
                   <div class="d-lg-flex">
                     <div v-if="item.image"
@@ -40,11 +38,16 @@
                       <div v-for="(item, idx) in link" class="py-3">
                         <h6 class="px-3 mb-1">{{ item.title }}</h6>
                         <ul class="list-unstyled">
-                          <li v-for="(child, idx) in item.children">
-                            <router-link class="dropdown-item py-2"
-                              :class="{ active: child.link.name === currentRouteName }" :to="{ name: child.link.name }">{{
-                                child.title }}
+                          <li v-for="(child, idx) in item.children" :key="child.title">
+                            <router-link v-if="child.link" class="dropdown-item py-2"
+                              :class="{ active: child.link.name === currentRouteName }"
+                              :to="{ name: child.link.name }">
+                              {{ child.title }}
                             </router-link>
+                            <a v-else-if="child.externalUrl" :href="child.externalUrl" class="dropdown-item py-2" target="_blank" rel="noopener">
+                              {{ child.title }}
+                            </a>
+                            <span v-else class="dropdown-item py-2">{{ child.title }}</span>
                           </li>
                         </ul>
                       </div>
@@ -65,20 +68,16 @@
     </div>
   </header>
 
-  <!--  Mobile Navbar-->
+  <!-- Mobile Navbar -->
   <b-offcanvas placement="end" v-model="showMobileNav" title="Menu" header-class="border-bottom"
     footer-class="border-top">
     <template v-slot:default>
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li v-for="(item, idx) in navbarLinkData" :key="item.title" class="nav-item dropdown">
-          <router-link v-if="item.link" class="nav-link" :to="{ name: item.link.name }">{{
-            item.title
-          }}</router-link>
+          <router-link v-if="item.link" class="nav-link" :to="{ name: item.link.name }">{{ item.title }}</router-link>
 
           <template v-else>
-            <a class="nav-link dropdown-toggle" v-b-toggle="`nav-collapse-${idx}`" href="#">{{
-              item.title
-            }}</a>
+            <a class="nav-link dropdown-toggle" v-b-toggle="`nav-collapse-${idx}`" href="#">{{ item.title }}</a>
 
             <b-collapse :id="`nav-collapse-${idx}`" class="p-0">
               <div class="d-lg-flex">
@@ -86,9 +85,10 @@
                   <h6 v-if="item.title" class="mb-1">{{ link.title }}</h6>
                   <ul class="list-unstyled">
                     <li v-for="(child, idx) in link.children">
-                      <router-link class="dropdown-item py-2" :class="{ active: child.link.name === currentRouteName }"
-                        :to="{ name: child.link.name }">{{ child.title }}
-                      </router-link>
+                      <router-link v-if="child.link" class="dropdown-item py-2"
+                        :class="{ active: child.link.name === currentRouteName }" :to="{ name: child.link.name }">{{ child.title }}</router-link>
+                      <a v-else-if="child.externalUrl" :href="child.externalUrl" class="dropdown-item py-2" target="_blank" rel="noopener">{{ child.title }}</a>
+                      <span v-else class="dropdown-item py-2">{{ child.title }}</span>
                     </li>
                   </ul>
                 </div>
