@@ -88,7 +88,7 @@
 <script setup lang="ts">
 import { Navigation, Pagination } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/vue'
-import clutchLogo from '@/assets/img/about/clutch-animated logo.svg'
+import clutchLogo from '@/assets/img/about/animated logo.svg'
 import { Icon } from '@iconify/vue'
 import ChevronRightIcon from '@iconify/icons-bx/bx-chevron-right'
 import QuoteIcon from '@iconify/icons-bx/bxs-quote-left'

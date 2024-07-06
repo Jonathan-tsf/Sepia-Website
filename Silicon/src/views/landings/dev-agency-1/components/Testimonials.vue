@@ -85,7 +85,7 @@
 </template>
 
 <script setup lang="ts">
-import clutchLogo from '@/assets/img/about/clutch-animated logo.svg'
+import clutchLogo from '@/assets/img/about/animated logo.svg'
 import { Swiper, SwiperSlide } from 'swiper/vue'
 import { Navigation, Pagination } from 'swiper/modules'
 
