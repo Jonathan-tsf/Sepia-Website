@@ -1,23 +1,37 @@
 {
   "compilerOptions": {
-    "composite": true,
-    "baseUrl": ".",
-    "module": "ESNext",
-    "types": ["node"],
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "importHelpers": true,
     "moduleResolution": "node",
-    "noUnusedLocals": false,
-  },
-  // "include": ["env.d.ts", "src/*/", "src/*/.vue", "src/*/*.vue",  "src/*/.json"],
-  "files": [],
-  "references": [
-    {
-      "path": "./tsconfig.node.json"
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "types": [
+      "webpack-env"
+    ],
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
     },
-    {
-      "path": "./tsconfig.app.json"
-    }
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue"
   ],
-  "include": ["components.d.ts"],
-  "exclude": ["node_modules/**"],
-
+  "exclude": [
+    "node_modules"
+  ]
 }

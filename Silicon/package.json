@@ -11,9 +11,11 @@
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-    "format": "prettier --write src/"
+    "format": "prettier --write src/",
+    "serve": "vue-cli-service serve"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
     "@iconify/icons-bx": "^1.2.6",
     "@iconify/vue": "^4.1.1",
     "@img-comparison-slider/vue": "^8.0.0",
@@ -22,23 +24,23 @@
     "bootstrap-vue-next": "^0.14.5",
     "boxicons": "^2.1.4",
     "img-comparison-slider": "^8.0.6",
-    "jarallax": "^2.1.4",
+    "jarallax": "^2.2.1",
     "lightgallery": "^2.7.2",
     "parallax-js": "^3.1.0",
     "pinia": "^2.1.7",
     "prismjs": "^1.29.0",
     "rellax": "^1.12.1",
-    "simplebar": "^6.2.5",
+    "simplebar": "^6.2.7",
     "simplebar-vue": "^2.3.3",
     "smooth-scroll": "^16.1.3",
-    "swiper": "^11.0.5",
+    "swiper": "^11.1.4",
     "vanilla-tilt": "^1.8.1",
-    "vue": "^3.3.11",
+    "vue": "^3.4.31",
     "vue-prism-component": "^2.0.0",
     "vue-router": "^4.2.5",
     "vue-the-mask": "^0.11.1",
     "vue3-clipboard": "^1.0.0",
-    "vue3-lottie": "^3.2.0"
+    "vue3-lottie": "^3.3.0"
   },
   "devDependencies": {
     "@tsconfig/node18": "^18.2.2",
