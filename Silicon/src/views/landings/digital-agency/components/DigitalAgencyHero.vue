@@ -92,16 +92,19 @@ const { currentText, exiting, entering } = useTextAnimation()
 // Charger le contenu HTML du chatbot depuis le serveur
 
 
-fetch('https://chatbotsepia.com/?client_id=sepia-website').then(response => response.text()).then(html => {
-                console.log('Contenu chargé:', html);
-                document.getElementsByTagName("body")[0].innerHTML += html;
+fetch('https://chatbotsepia.com/?client_id=sepia-website')
+    .then(response => response.text())
+    .then(html => {
+        console.log('Contenu chargé:', html);
+        let content = document.createElement('div');
+        content.innerHTML = html;
+        document.body.appendChild(content);
 
-                // Charger le script JS du chatbot après avoir injecté le HTML
-                const script = document.createElement('script');
-                script.src = 'https://chatbotsepia.com/static/js/chatbot.js';
-                document.body.appendChild(script);
-            })
-            .catch(error => console.error('Erreur de chargement du contenu:', error));
+    const script = document.createElement('script');
+    script.src = 'https://chatbotsepia.com/static/js/chatbot.js';
+    document.body.appendChild(script);
+})
+.catch(error => console.error('Erreur de chargement du contenu:', error));
 
 </script>
 

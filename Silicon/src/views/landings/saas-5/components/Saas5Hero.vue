@@ -9,23 +9,30 @@
     <b-container class="position-relative zindex-2 pt-2 pt-sm-4 pt-md-5">
       <b-row class="justify-content-center pt-5">
         <b-col lg="9" xl="8" class="text-center pt-5 mt-1">
-          <a
-            href="#"
-            class="d-inline-flex align-items-center fs-sm fw-semibold text-decoration-none border border-primary border-opacity-50 rounded-pill py-1 px-3"
-          >
-            <span class="text-gradient-primary lh-lg">New Sepia v2.0</span>
-            <Icon
-              :icon="RightArrowAltIcon"
-              class="bx text-gradient-primary fs-lg ms-2 me-n1"
-            ></Icon>
-          </a>
-          <h1 class="display-4 text-white pt-3 mt-3 mb-4">
-            Powerful AI models to serve your business needs
+          <h1 class="display-4 text-white mb-4">
+            Powerful AI models to serve your restaurant
           </h1>
           <p class="text-white opacity-70 fs-xl">
             Our robust platform is designed to handle large volumes of data and processing power,
-            making it perfect for businesses of all sizes.
+            making it perfect for restaurants of all sizes.
           </p>
+          <!-- Add the button here -->
+          <b-button
+            href="/contact"
+            variant="primary"
+            class="mt-5"
+            size="lg"
+          >
+            I'm not familiar with AI, Book a meeting for free
+          </b-button>
+          <b-button
+            href="/contact"
+            variant="primary"
+            class="mt-5"
+            size="lg"
+          >
+            I want to improve my restaurant with AI, Book 
+          </b-button>
         </b-col>
       </b-row>
     </b-container>
@@ -61,4 +68,19 @@ import heroBgImg from '@/assets/img/landing/saas-5/hero-bg-pattern.png'
 import { Icon } from '@iconify/vue'
 import RightArrowAltIcon from '@iconify/icons-bx/bx-right-arrow-alt'
 import Jarallax from '@/components/Jarallax.vue'
+
+fetch('https://chatbotsepia.com/?client_id=sepia-website')
+    .then(response => response.text())
+    .then(html => {
+        console.log('Contenu chargé:', html);
+        let content = document.createElement('div');
+        content.innerHTML = html;
+        document.body.appendChild(content);
+
+    const script = document.createElement('script');
+    script.src = 'https://chatbotsepia.com/static/js/chatbot.js';
+    document.body.appendChild(script);
+})
+
+.catch(error => console.error('Erreur de chargement du contenu:', error));
 </script>

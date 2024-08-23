@@ -25,13 +25,6 @@
                 <a href="#" class="nav-link py-1 px-xl-0">About us</a>
               </li>
               <li class="nav-item mb-1">
-                <a href="#" class="nav-link py-1 px-xl-0"
-                  >Careers<span class="badge bg-primary bg-opacity-10 rounded-pill ms-2"
-                    ><span class="text-gradient-primary">Hiring</span></span
-                  ></a
-                >
-              </li>
-              <li class="nav-item mb-1">
                 <a href="#" class="nav-link py-1 px-xl-0">Contact us</a>
               </li>
               <li class="nav-item mb-1">

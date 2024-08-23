@@ -36,7 +36,7 @@
 </template>
 
 <script setup lang="ts">
-import dashboardImg from '@/assets/img/landing/saas-1/dashboard.png'
+import dashboardImg from '@/assets/img/landing/olivia/dashboard.png'
 import { Icon } from '@iconify/vue'
 import RightArrowAltIcon from '@iconify/icons-bx/bx-right-arrow-alt'
 import CheckCircleIcon from '@iconify/icons-bx/bx-check-circle'

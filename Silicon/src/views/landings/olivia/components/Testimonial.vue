@@ -78,6 +78,6 @@ import QuoteLeftIcon from '@iconify/icons-bx/bxs-quote-left'
 import ChevronLeft from '@iconify/icons-bx/bx-chevron-left'
 import ChevronRightIcon from '@iconify/icons-bx/bx-chevron-right'
 
-import TestimonialCard from '@/views/landings/saas-1/components/TestimonialCard.vue'
+import TestimonialCard from '@/views/landings/olivia/components/TestimonialCard.vue'
 import { testimonialData } from '../data'
 </script>

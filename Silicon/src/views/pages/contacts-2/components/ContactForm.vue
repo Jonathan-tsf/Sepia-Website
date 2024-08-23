@@ -36,16 +36,6 @@
               <div class="bg-light text-primary rounded-circle flex-shrink-0 fs-3 lh-1 p-3">
                 <Icon :icon="GroupIcon" />
               </div>
-              <div class="ps-3 ps-sm-4">
-                <h2 class="h4 pb-1 mb-2">Careers</h2>
-                <p class="mb-2">
-                  Sit ac ipsum leo lorem magna nunc mattis maecenas non vestibulum.
-                </p>
-                <div class="btn btn-link btn-lg px-0">
-                  Send an application
-                  <Icon :icon="RightArrowAltIcon" class="lead ms-2" />
-                </div>
-              </div>
             </div>
           </div>
         </b-col>

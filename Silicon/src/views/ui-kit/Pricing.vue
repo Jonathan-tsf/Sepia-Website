@@ -18,7 +18,7 @@
                   <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
                     <div class="flex-shrink-0 bg-secondary rounded-3">
                       <img
-                        src="@/assets/img/landing/saas-1/pricing/basic.png"
+                        src="@/assets/img/landing/olivia/pricing/basic.png"
                         width="84"
                         alt="Icon"
                       />
@@ -70,7 +70,7 @@
                       style="background-color: rgba(255, 255, 255, 0.1)"
                     >
                       <img
-                        src="@/assets/img/landing/saas-1/pricing/standard.png"
+                        src="@/assets/img/landing/olivia/pricing/standard.png"
                         width="84"
                         alt="Icon"
                       />
@@ -116,7 +116,7 @@
                   <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
                     <div class="flex-shrink-0 bg-secondary rounded-3">
                       <img
-                        src="@/assets/img/landing/saas-1/pricing/ultimate.png"
+                        src="@/assets/img/landing/olivia/pricing/ultimate.png"
                         width="84"
                         alt="Icon"
                       />
@@ -464,7 +464,7 @@
                         <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
                           <div class="flex-shrink-0 bg-secondary rounded-3">
                             <img
-                              src="@/assets/img/landing/saas-1/pricing/basic.png"
+                              src="@/assets/img/landing/olivia/pricing/basic.png"
                               width="84"
                               alt="Icon"
                             />
@@ -522,7 +522,7 @@
                             style="background-color: rgba(255, 255, 255, 0.1)"
                           >
                             <img
-                              src="@/assets/img/landing/saas-1/pricing/standard.png"
+                              src="@/assets/img/landing/olivia/pricing/standard.png"
                               width="84"
                               alt="Icon"
                             />
@@ -574,7 +574,7 @@
                         <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
                           <div class="flex-shrink-0 bg-secondary rounded-3">
                             <img
-                              src="@/assets/img/landing/saas-1/pricing/ultimate.png"
+                              src="@/assets/img/landing/olivia/pricing/ultimate.png"
                               width="84"
                               alt="Icon"
                             />

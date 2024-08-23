@@ -238,9 +238,9 @@
 </template>
 
 <script lang="ts" setup>
-import basicImg from '@/assets/img/landing/saas-1/pricing/basic.png'
-import standardImg from '@/assets/img/landing/saas-1/pricing/standard.png'
-import ultimateImg from '@/assets/img/landing/saas-1/pricing/ultimate.png'
+import basicImg from '@/assets/img/landing/olivia/pricing/basic.png'
+import standardImg from '@/assets/img/landing/olivia/pricing/standard.png'
+import ultimateImg from '@/assets/img/landing/olivia/pricing/ultimate.png'
 
 import { Icon } from '@iconify/vue'
 import CheckIcon from '@iconify/icons-bx/bx-check'

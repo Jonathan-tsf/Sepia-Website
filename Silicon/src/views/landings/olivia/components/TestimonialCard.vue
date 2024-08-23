@@ -16,7 +16,7 @@
 <script setup lang="ts">
 import type { PropType } from 'vue'
 
-import type { TestimonialType } from '@/views/landings/saas-1/type'
+import type { TestimonialType } from '@/views/landings/olivia/type'
 
 defineProps({
   testimonial: {

@@ -16,7 +16,7 @@ export const navbarLinkData: NavLinkType[] = [
         children: [
           {
             title: 'Olivia',
-            link: { name: 'landings.saas-1' }
+            link: { name: 'landings.olivia' }
           },
           {
             title: 'Riley',

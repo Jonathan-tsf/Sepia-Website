@@ -56,9 +56,6 @@
                     <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Courses</a>
                   </li>
                   <li class="nav-item">
-                    <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Careers</a>
-                  </li>
-                  <li class="nav-item">
                     <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Blog</a>
                   </li>
                 </ul>

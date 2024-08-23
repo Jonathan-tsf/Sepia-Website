@@ -41,28 +41,29 @@ import type { categoriesType, TestimonialType, PricingType, FooterType, AuthorTy
 
 export const categoriesData: categoriesType[] = [
   {
-    head: 'E-commerce',
-    description: 'Order processing, price suggestions, user research',
+    // This is to specify the fact that a chatbot can talk many languages in a restaurant
+    head: 'Multi language',
+    description: 'Olivia can talk in more than 90 languages',
     image: ecommerceImg
   },
   {
-    head: 'Transportation',
-    description: 'Itinerary planning, freight pricing culculations, etc.',
+    head: '24/7 Support',
+    description: 'Olivia is available 24/7 to help your customers',
     image: transportationImg
   },
   {
-    head: 'Marketing',
-    description: 'Market research, data visualization, user testing',
+    head: 'Personalized Recommendations',
+    description: 'Olivia can recommend products based on customer preferences',
     image: marketingImg
   },
   {
-    head: 'Robotics',
-    description: 'Enhancing robot learning, improve robotic precision',
+    head: 'Data Collection',
+    description: 'Olivia can collect data from customers to improve your services',
     image: roboticsImg
   },
   {
-    head: 'Programming',
-    description: 'Code generation, code debugging and optimization',
+    head: 'Seamless User Experience',
+    description: 'Olivia can provide a seamless user experience for your customers',
     image: programmingImg
   }
 ]

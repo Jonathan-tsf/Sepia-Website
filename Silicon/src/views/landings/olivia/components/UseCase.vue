@@ -32,5 +32,5 @@
 
 <script setup lang="ts">
 import { Icon } from '@iconify/vue'
-import { useCasesData } from '@/views/landings/saas-1/data'
+import { useCasesData } from '@/views/landings/olivia/data'
 </script>

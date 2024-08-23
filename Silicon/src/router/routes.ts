@@ -91,12 +91,12 @@ const landingsRoutes = [
         component: () => import('@/views/landings/product/index.vue')
       },
       {
-        path: '/saas-1',
-        name: 'landings.saas-1',
+        path: '/olivia',
+        name: 'landings.olivia',
         meta: {
           title: 'SaaS Landing v.1 | Sepia'
         },
-        component: () => import('@/views/landings/saas-1/index.vue')
+        component: () => import('@/views/landings/olivia/index.vue')
       },
       {
         path: '/saas-2',

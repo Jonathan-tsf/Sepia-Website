@@ -220,10 +220,6 @@ const footerLinks: FooterLinkType[] = [
       {
         title: 'Financial planning tips',
         link: { name: '' }
-      },
-      {
-        title: 'Careers at Sepia',
-        link: { name: '' }
       }
     ]
   },
