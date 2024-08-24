@@ -1,4 +1,4 @@
-import list1 from '@/assets/img/portfolio/list/01.jpg'
+import list1 from '@/assets/img/portfolio/list/01.png'
 import list2 from '@/assets/img/portfolio/list/02.jpg'
 import list3 from '@/assets/img/portfolio/list/03.jpg'
 import list4 from '@/assets/img/portfolio/list/04.jpg'

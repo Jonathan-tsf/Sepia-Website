@@ -11,10 +11,10 @@
     'border-bottom border-light': isBorder
   }">
     <div class="container px-3">
-      <router-link class="navbar-brand pe-3" to="/">
+      <div class="navbar-brand pe-3">
         <img :src="logoImg" alt="Sepia" width="47" />
         <span class="logo-by">by</span><span class="logo-sepia">Sepia</span>
-      </router-link>
+      </div>
 
       <div id="navbarNav">
         <div v-if="!isMobileView">

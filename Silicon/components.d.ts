@@ -19,6 +19,7 @@ declare module 'vue' {
     BFormGroup: typeof import('bootstrap-vue-next')['BFormGroup']
     BFormInput: typeof import('bootstrap-vue-next')['BFormInput']
     BFormInvalidFeedback: typeof import('bootstrap-vue-next')['BFormInvalidFeedback']
+    BFormSelect: typeof import('bootstrap-vue-next')['BFormSelect']
     BFormTextarea: typeof import('bootstrap-vue-next')['BFormTextarea']
     BNav: typeof import('bootstrap-vue-next')['BNav']
     BOffcanvas: typeof import('bootstrap-vue-next')['BOffcanvas']
@@ -39,6 +40,7 @@ declare module 'vue' {
     VideoPopup: typeof import('./src/components/VideoPopup.vue')['default']
   }
   export interface ComponentCustomProperties {
+    vBScrollspy: typeof import('bootstrap-vue-next')['vBScrollspy']
     vBToggle: typeof import('bootstrap-vue-next')['vBToggle']
   }
 }

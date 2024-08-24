@@ -49,11 +49,11 @@
                 </li>
                 <li>
                   <a
-                    href="mailto:Sepia@gmail.com"
+                    href="mailto:Info.bysepia@gmail.com"
                     class="nav-link align-items-start fw-normal px-0 py-1"
                   >
                     <Icon :icon="EnvelopeIcon" class="bx fs-5 text-primary me-2"></Icon>
-                    Sepia@gmail.com
+                    Info.bysepia@gmail.com
                   </a>
                 </li>
               </ul>

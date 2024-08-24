@@ -14,7 +14,7 @@ import brand4SvgImg from '@/assets/img/brands/04.svg'
 import brand5SvgImg from '@/assets/img/brands/05.svg'
 import brand6SvgImg from '@/assets/img/brands/06.svg'
 
-import list1 from '@/assets/img/portfolio/list/01.jpg'
+import list1 from '@/assets/img/portfolio/list/01.png'
 import list2 from '@/assets/img/portfolio/list/02.jpg'
 
 import avatar1 from '@/assets/img/testimonials/01.jpg'

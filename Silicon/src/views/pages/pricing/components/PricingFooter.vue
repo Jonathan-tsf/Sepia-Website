@@ -103,7 +103,7 @@ T<template>
             </b-col>
             <b-col xl="4" lg="5" class="pt-2 pt-lg-0">
               <h6 class="mb-2">Contact Us</h6>
-              <a href="mailto:Sepia@gmail.com" class="fw-medium">Sepia@gmail.com</a>
+              <a href="mailto:Info.bysepia@gmail.com" class="fw-medium">Info.bysepia@gmail.com</a>
             </b-col>
           </b-row>
         </b-col>

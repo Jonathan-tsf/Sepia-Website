@@ -18,21 +18,17 @@
           </p>
           <!-- Add the button here -->
           <b-button
-            href="/contact"
+            href="/pages/contacts-3"
             variant="primary"
-            class="mt-5"
+            class="mt-5 py-3 px-4 bg-gradient-primary border-0 rounded-pill"
             size="lg"
+            style="font-size: 1.5em;"
           >
-            I'm not familiar with AI, Book a meeting for free
+            Book a meeting for free
           </b-button>
-          <b-button
-            href="/contact"
-            variant="primary"
-            class="mt-5"
-            size="lg"
-          >
-            I want to improve my restaurant with AI, Book 
-          </b-button>
+          <p class="text-white opacity-70 fs-xl">
+            (One of our manager generally responds within 12 hours)
+          </p>
         </b-col>
       </b-row>
     </b-container>

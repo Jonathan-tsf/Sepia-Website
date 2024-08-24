@@ -126,7 +126,7 @@ const landingsRoutes = [
         path: '/saas-5',
         name: 'landings.saas-5',
         meta: {
-          title: 'SaaS Landing v.5 | Sepia'
+          title: 'Sépia Chatbot'
         },
         component: () => import('@/views/landings/saas-5/index.vue')
       },
@@ -392,7 +392,7 @@ const pagesRoutes = [
         path: 'contacts-1',
         name: 'pages.contacts-1',
         meta: {
-          title: 'Contacts v.1 | Sepia'
+          title: 'Contacts Sépia'
         },
         component: () => import('@/views/pages/contacts-1/index.vue')
       },
@@ -400,7 +400,7 @@ const pagesRoutes = [
         path: 'contacts-2',
         name: 'pages.contacts-2',
         meta: {
-          title: 'Contacts v.2 | Sepia'
+          title: 'Contacts Sépia'
         },
         component: () => import('@/views/pages/contacts-2/index.vue')
       },
@@ -408,7 +408,7 @@ const pagesRoutes = [
         path: 'contacts-3',
         name: 'pages.contacts-3',
         meta: {
-          title: 'Contacts v.3 | Sepia'
+          title: 'Contacts Sépia'
         },
         component: () => import('@/views/pages/contacts-3/index.vue')
       }

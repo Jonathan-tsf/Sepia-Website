@@ -55,8 +55,8 @@
               </li>
               <li class="d-flex align-items-center pb-1 mb-2">
                 <Icon :icon="EnvelopeIcon" class="fs-xl text-primary me-2" />
-                <a href="mailto:Sepia@gmail.com" class="nav-link fw-normal p-0"
-                  >Sepia@gmail.com</a
+                <a href="mailto:Info.bysepia@gmail.com" class="nav-link fw-normal p-0"
+                  >Info.bysepia@gmail.com</a
                 >
               </li>
               <li class="d-flex align-items-center pb-1 mb-2">

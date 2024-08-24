@@ -25,9 +25,9 @@
                   </a>
                 </li>
                 <li>
-                  <a href="mailto:Sepia@gmail.com" class="nav-link fs-lg fw-normal px-0 py-1">
+                  <a href="mailto:Info.bysepia@gmail.com" class="nav-link fs-lg fw-normal px-0 py-1">
                     <Icon :icon="EnvelopeIcon" class="bx fs-4 me-2"></Icon>
-                    Sepia@gmail.com
+                    Info.bysepia@gmail.com
                   </a>
                 </li>
               </ul>

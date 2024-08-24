@@ -63,7 +63,7 @@
           <b-col md="6" class="pb-1 mb-3 pb-md-0 mb-md-0">
             <a href="#">
               <img
-                src="@/assets/img/portfolio/list/01.jpg"
+                src="@/assets/img/portfolio/list/01.png"
                 class="rounded-3"
                 width="600"
                 alt="Image"
