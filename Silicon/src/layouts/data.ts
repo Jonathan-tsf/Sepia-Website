@@ -46,7 +46,7 @@ export const navbarLinkData: NavLinkType[] = [
   ,
   {
     title: 'Order an Assistant',
-    link: { name: 'pages.saas-5' }
+    link: { name: 'landings.saas-5' }
   }
 ]
 
