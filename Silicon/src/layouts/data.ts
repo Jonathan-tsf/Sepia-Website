@@ -43,6 +43,11 @@ export const navbarLinkData: NavLinkType[] = [
     title: 'Portfolio',
     link: { name: 'pages.list-view' }
   }
+  ,
+  {
+    title: 'Order an Assistant',
+    link: { name: 'pages.saas-5' }
+  }
 ]
 
 export const uiKitSidebarMobileLinkData: ChildrenLinkType[] = [
