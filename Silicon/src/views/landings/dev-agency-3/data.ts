@@ -28,6 +28,21 @@ import blog5 from '@/assets/img/blog/05.jpg'
 import blog7 from '@/assets/img/blog/07.jpg'
 import blog8 from '@/assets/img/blog/08.jpg'
 
+export const brandData: BrandType[] = [
+  {
+    image: brand1SvgImg
+  },
+  {
+    image: brand2SvgImg
+  },
+  {
+    image: brand3SvgImg
+  },
+  {
+    image: brand4SvgImg
+  }
+]
+
 export const solutionData: SolutionType[] = [
   {
     image: icon1,
