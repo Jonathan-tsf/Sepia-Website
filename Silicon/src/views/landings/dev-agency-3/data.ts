@@ -1,3 +1,33 @@
+import type {
+  BenefitType,
+  BlogType,
+  IndustryType,
+  ProjectType,
+  BrandType,
+  SolutionType
+} from '@/views/landings/dev-agency-3/type'
+import icon1 from '@/assets/img/landing/software-agency-3/icons/01.svg'
+import icon2 from '@/assets/img/landing/software-agency-3/icons/02.svg'
+import icon3 from '@/assets/img/landing/software-agency-3/icons/03.svg'
+import icon4 from '@/assets/img/landing/software-agency-3/icons/04.svg'
+
+import industry1 from '@/assets/img/landing/software-agency-3/industries/01.jpg'
+import industry2 from '@/assets/img/landing/software-agency-3/industries/02.jpg'
+import industry3 from '@/assets/img/landing/software-agency-3/industries/03.jpg'
+
+import project1 from '@/assets/img/landing/software-agency-3/projects/01.png'
+import project2 from '@/assets/img/landing/software-agency-3/projects/02.png'
+import project3 from '@/assets/img/landing/software-agency-3/projects/03.png'
+
+import brand1SvgImg from '@/assets/img/brands/01.svg'
+import brand2SvgImg from '@/assets/img/brands/02.svg'
+import brand3SvgImg from '@/assets/img/brands/03.svg'
+import brand4SvgImg from '@/assets/img/brands/04.svg'
+
+import blog5 from '@/assets/img/blog/05.jpg'
+import blog7 from '@/assets/img/blog/07.jpg'
+import blog8 from '@/assets/img/blog/08.jpg'
+
 export const solutionData: SolutionType[] = [
   {
     image: icon1,
@@ -44,6 +74,7 @@ export const industryData: IndustryType[] = [
   }
 ]
 
+const categories: string[] = ['Mobile App', 'Landing Page', 'Web App']
 export const featureProjectData: ProjectType[] = [
   {
     image: project1,
@@ -93,7 +124,7 @@ export const benefitsData: BenefitType[] = [
       'Enjoy peace of mind with our around-the-clock technical support, ensuring that your website or application is always up and running.'
   }
 ]
-
+const blogCategories: string[] = ['Business', 'Digital', 'Development']
 export const blogData: BlogType[] = [
   {
     image: blog5,
