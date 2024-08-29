@@ -118,7 +118,7 @@ const landingsRoutes = [
         path: '/saas-4',
         name: 'landings.saas-4',
         meta: {
-          title: 'SaaS Landing v.4 | Sepia'
+          title: 'Website | Sepia'
         },
         component: () => import('@/views/landings/saas-4/index.vue')
       },

@@ -28,32 +28,32 @@
           class="d-flex flex-column justify-content-between mb-md-5 mb-md-4 mb-3 pb-xl-5 pb-lg-4"
         >
           <div class="text-md-start text-center">
-            <h1 class="display-4 mb-lg-4 mb-3">Keep your finances even more easily.</h1>
+            <h1 class="display-4 mb-lg-4 mb-3">Build Your Website With the Latest Technologies</h1>
             <p class="mb-4 mx-md-0 mx-auto pb-xl-3 pb-lg-2 fs-lg" style="max-width: 30.5rem">
-              Here you can manage and monitor your finances much more conveniently with the help of
-              the new application that we have created.
+              Take your online presence to the next level with our cutting-edge website development services. We create modern, responsive, and user-friendly websites tailored to your business needs.
             </p>
-            <a href="#" class="btn btn-lg btn-primary">Digitize Now</a>
+            <a href="#" class="btn btn-lg btn-primary">Contact Us</a>
           </div>
+          
           <ul
             class="list-unstyled row row-cols-2 gy-sm-2 gy-1 gx-sm-4 gx-2 mt-lg-5 mt-4 mx-md-0 mx-auto pt-lg-0 pt-md-2 mb-md-5 mb-4 pb-xl-4 pb-lg-3 pb-md-2 pb-sm-0 pb-2 text-nowrap"
             style="max-width: 23.625rem"
           >
             <b-col class="d-flex align-items-start">
               <Icon :icon="CheckCircleIcon" class="bx me-2 fs-5 text-primary"></Icon>
-              Public economy
+              Responsive Design
             </b-col>
             <b-col class="d-flex align-items-start">
               <Icon :icon="CheckCircleIcon" class="bx me-2 fs-5 text-primary"></Icon>
-              Corporate finance
+              SEO Optimization
             </b-col>
             <b-col class="d-flex align-items-start">
               <Icon :icon="CheckCircleIcon" class="bx me-2 fs-5 text-primary"></Icon>
-              Financial planning
+              Fast Loading Speed
             </b-col>
             <b-col class="d-flex align-items-start">
               <Icon :icon="CheckCircleIcon" class="bx me-2 fs-5 text-primary"></Icon>
-              Project finance
+              Custom Features
             </b-col>
           </ul>
         </b-col>
@@ -73,7 +73,7 @@
             <img
               :src="heroImg"
               width="1122"
-              alt="Layer"
+              alt="Modern Website Design"
               class="rounded-4"
               style="box-shadow: 0 0 7.5rem rgba(0, 0, 0, 0.1)"
             />

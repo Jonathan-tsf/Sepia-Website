@@ -56,7 +56,7 @@ export const featureData: FeatureType[] = [
   {
     image: ambulanceImg,
     title: 'Emergency Service',
-    description: '(406) 555-0120',
+    description: '(514) 863-1572',
     linkLabel: 'Contact us'
   },
   {

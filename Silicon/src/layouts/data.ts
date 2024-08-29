@@ -8,45 +8,20 @@ export const navbarLinkData: NavLinkType[] = [
     link: { name: 'landings.digital-agency' }
   },
   {
-    title: 'Our projects',
-    image: landingsImg,
-    links: [
-      {
-        title: 'Meet',
-        children: [
-          {
-            title: 'Olivia',
-            link: { name: 'landings.olivia' }
-          },
-          {
-            title: 'Riley',
-            link: { name: 'landings.saas-2' }
-          },
-          {
-            title: 'Mistory',
-            externalUrl: 'http://34.229.81.248:5000/start_game'
-          },
-
-        ]
-      },
-      {
-        title: null,
-        children: []
-      }
-    ]
-  },
-  {
-    title: 'Contact',
+    title: 'Contact Us',
     link: { name: 'pages.contacts-3' }
   },
   {
-    title: 'Portfolio',
-    link: { name: 'pages.list-view' }
-  }
-  ,
+    title: 'Launch Your Website',
+    link: { name: 'landings.saas-4' }
+  },
   {
-    title: 'Order an Assistant',
-    link: { name: 'landings.saas-5' }
+    title: 'Meet your Virtual Assistant',
+    link: { name: 'landings.saas-3' }
+  },
+  {
+    title: 'Discover Olivia',
+    link: { name: 'landings.olivia' }
   }
 ]
 

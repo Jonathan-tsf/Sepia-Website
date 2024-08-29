@@ -15,6 +15,8 @@ declare module 'vue' {
     BCol: typeof import('bootstrap-vue-next')['BCol']
     BCollapse: typeof import('bootstrap-vue-next')['BCollapse']
     BContainer: typeof import('bootstrap-vue-next')['BContainer']
+    BDropdown: typeof import('bootstrap-vue-next')['BDropdown']
+    BDropdownItem: typeof import('bootstrap-vue-next')['BDropdownItem']
     BForm: typeof import('bootstrap-vue-next')['BForm']
     BFormGroup: typeof import('bootstrap-vue-next')['BFormGroup']
     BFormInput: typeof import('bootstrap-vue-next')['BFormInput']
@@ -42,5 +44,6 @@ declare module 'vue' {
   export interface ComponentCustomProperties {
     vBScrollspy: typeof import('bootstrap-vue-next')['vBScrollspy']
     vBToggle: typeof import('bootstrap-vue-next')['vBToggle']
+    vBTooltip: typeof import('bootstrap-vue-next')['vBTooltip']
   }
 }

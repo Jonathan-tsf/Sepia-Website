@@ -26,7 +26,7 @@
               class="text-primary fs-xl me-2"
               style="margin-top: 0.125rem"
             />
-            (406) 555-0120
+            (514) 863-1572
           </li>
           <li class="d-flex">
             <Icon
@@ -53,7 +53,7 @@
               class="text-primary fs-xl me-2"
               style="margin-top: 0.125rem"
             />
-            (406) 544-0123
+            (514) 863-1572
           </li>
           <li class="d-flex">
             <Icon

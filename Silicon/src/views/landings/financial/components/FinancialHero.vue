@@ -62,7 +62,7 @@
               <li class="d-flex align-items-center pb-1 mb-2">
                 <Icon :icon="PhoneCallIcon" class="fs-xl text-primary me-2" />
                 <a href="tel:4065550120" class="nav-link fw-normal p-0"
-                  >(406)&nbsp;555&#8209;0120</a
+                  >(514) 863-1572</a
                 >
               </li>
             </ul>

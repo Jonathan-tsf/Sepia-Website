@@ -3,21 +3,19 @@
     <b-row class="align-items-center pt-2 pb-3">
       <!-- Text -->
       <b-col md="6" xl="5" class="text-center text-md-start mb-5 mb-md-0">
-        <h2 class="h1 pb-2 pb-lg-3">Explore Opportunities with Sepia App</h2>
+        <h2 class="h1 pb-2 pb-lg-3">Explore New Horizons with Sepia App</h2>
         <p class="pb-2 mb-4 mb-lg-5">
-          In blandit luctus proin mauris a commodo, dolor diam tempus, aenean magna fusce eu. Id
-          porttitor aliquam eget aliquet sagittis eu aut diam ut phasellus sed convallis iaculis
-          neque ultricies convallis sed enim.
+          Unlock the full potential of your online presence with Sepia App. Our modern, intuitive designs are tailored to elevate your brand and engage your audience. Join the growing number of businesses transforming their digital landscapes.
         </p>
         <hr />
         <div class="d-flex justify-content-center justify-content-md-between pt-4 pt-lg-5">
           <div class="mx-3 mx-md-0">
-            <div class="display-3 text-dark mb-1">23%</div>
-            <span>Nulla venenatis everys</span>
+            <div class="display-3 text-dark mb-1">85%</div>
+            <span>Client satisfaction rate</span>
           </div>
           <div class="mx-3 mx-md-0">
-            <div class="display-3 text-dark mb-1">132b</div>
-            <span>Dictum in marko elementum</span>
+            <div class="display-3 text-dark mb-1">500+</div>
+            <span>Successful projects delivered</span>
           </div>
         </div>
       </b-col>
@@ -61,7 +59,7 @@
                 box-shadow: 0 0.1875rem 1.875rem -0.125rem rgba(99, 102, 241, 0.95);
               "
             >
-              <span class="h5 text-light mb-0">400K+</span>
+              <span class="h5 text-light mb-0">10K+</span>
             </div>
           </div>
           <div

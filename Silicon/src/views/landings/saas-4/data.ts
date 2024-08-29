@@ -7,22 +7,40 @@ import avatar9Img from '@/assets/img/avatar/09.jpg'
 
 export const industryData: IndustryType[] = [
   {
-    image: industry1Img,
-    name: ' Finance and insurance',
-    about:
-      'Risus massa fames metus lectus diam maecenas dui. Nibh morbi id purus eget tellus diam, integer blandit. Ac condimentum a nisl sagittis, interdum. Et viverra maecenas quis cras sed gravida volutpat, cursus enim. Enim ut nulla netus porta lacus diam. Et enim ultrices nunc, nunc. In iaculis venenatis at sit.'
-  },
-  {
-    image: industry2Img,
-    name: 'Startup and technology',
-    about:
-      'Nunc, amet et, et at habitant. Eget quis justo, metus at metus sapien. Urna quisque rutrum pharetra pulvinar vitae quam blandit non. Orci tempor cursus egestas quis orci at nisi maecenas. Enim in ultrices tortor, nibh quis sollicitudin tellus non maecenas. In libero ut semper nunc magna tortor.'
+  image: industry2Img, 
+  name: 'Restaurants and Food Services',
+  about:
+    'Increase your restaurant’s visibility and online orders with our tailored web solutions. We create attractive, easy-to-navigate websites that highlight your menu, integrate with online ordering systems, and reflect the ambiance of your establishment.'
   },
   {
     image: industry3Img,
     name: 'E-commerce',
     about:
-      'Vivamus nisl sit volutpat laoreet ligula et. Nunc, duis est justo, cras ipsum vulputate eget tellus augue. Amet, sagittis ut enim nisl commodo, pharetra. Sapien imperdiet tristique interdum aliquet varius vitae facilisis vel. Erat convallis eget elit eget iaculis. Morbi id facilisis ligula odio sed amet suspendisse duis aliquet. Justo quam convallis id sed.'
+      'Boost your online sales with our e-commerce solutions that provide an exceptional shopping experience. Our websites are designed to be user-friendly, visually appealing, and equipped with secure payment integrations to drive conversions.'
+  },
+  {
+    image: industry2Img, 
+    name: 'Fitness and Coaching',
+    about:
+      'Attract fitness enthusiasts with dynamic and interactive websites. Whether you run a gym, offer personal training, or sell sports equipment, our solutions are designed to motivate and engage your clients.'
+  },
+  {
+    image: industry1Img,
+    name: 'Real Estate',
+    about:
+      'Showcase properties and connect with potential buyers through our real estate website solutions. We provide features like property listings, virtual tours, and easy contact forms to enhance the buying and selling experience.'
+  },
+  {
+    image: industry2Img,
+    name: 'Finance and Startups',
+    about:
+      'Empower your startup or financial firm with a strong online presence. Our websites are designed to build trust, provide valuable insights, and engage your audience with sleek, professional designs and secure integrations.'
+  },
+  {
+    image: industry1Img,
+    name: 'Corporate Websites',
+    about:
+      'Build a professional online image with our corporate website solutions. We focus on creating informative, well-structured, and visually appealing websites that align with your company’s brand and values.'
   }
 ]
 

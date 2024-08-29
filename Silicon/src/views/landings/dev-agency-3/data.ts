@@ -1,166 +1,116 @@
-import icon1 from '@/assets/img/landing/software-agency-3/icons/01.svg'
-import icon2 from '@/assets/img/landing/software-agency-3/icons/02.svg'
-import icon3 from '@/assets/img/landing/software-agency-3/icons/03.svg'
-import icon4 from '@/assets/img/landing/software-agency-3/icons/04.svg'
-
-import industry1 from '@/assets/img/landing/software-agency-3/industries/01.jpg'
-import industry2 from '@/assets/img/landing/software-agency-3/industries/02.jpg'
-import industry3 from '@/assets/img/landing/software-agency-3/industries/03.jpg'
-
-import project1 from '@/assets/img/landing/software-agency-3/projects/01.png'
-import project2 from '@/assets/img/landing/software-agency-3/projects/02.png'
-import project3 from '@/assets/img/landing/software-agency-3/projects/03.png'
-
-import brand1SvgImg from '@/assets/img/brands/01.svg'
-import brand2SvgImg from '@/assets/img/brands/02.svg'
-import brand3SvgImg from '@/assets/img/brands/03.svg'
-import brand4SvgImg from '@/assets/img/brands/04.svg'
-
-import blog5 from '@/assets/img/blog/05.jpg'
-import blog7 from '@/assets/img/blog/07.jpg'
-import blog8 from '@/assets/img/blog/08.jpg'
-
-import type {
-  BenefitType,
-  BlogType,
-  IndustryType,
-  ProjectType,
-  BrandType,
-  SolutionType
-} from '@/views/landings/dev-agency-3/type'
-
 export const solutionData: SolutionType[] = [
   {
     image: icon1,
-    title: 'Software Development',
+    title: 'Custom Software Development',
     description:
-      'Commodo senectus massa est urna mi. Mattis dis arcu aenean libero viverra gravida.'
+      'We develop tailored software solutions to meet the unique challenges of your business, ensuring scalability, efficiency, and growth.'
   },
   {
     image: icon2,
-    title: 'App Development',
-    description: 'Enim vehicula integer mattis morbi risus. Hendrerit pharetra arcu quam viverra.'
+    title: 'Mobile App Development',
+    description: 'Our team creates intuitive and user-friendly mobile apps that keep your customers engaged and connected on the go.'
   },
   {
     image: icon3,
-    title: 'Support &amp; Maintenance',
+    title: 'Ongoing Support & Maintenance',
     description:
-      'Turpis ultrices lacinia ut placerat dignissim morbi. Amet lectus sed tortor in elit adipiscing magnis.'
+      'We offer reliable support and maintenance to ensure your software and applications run smoothly and efficiently at all times.'
   },
   {
     image: icon4,
-    title: 'Software QA &amp; Testing',
-    description: 'Amet felis viverra proin feugiat. Eget metus metus lorem dolor pellentesque.'
+    title: 'Comprehensive Software QA & Testing',
+    description: 'Our thorough testing processes guarantee your software is robust, reliable, and ready for market deployment.'
   }
 ]
 
 export const industryData: IndustryType[] = [
   {
     image: industry1,
-    name: 'Finance and insurance',
+    name: 'Finance and Insurance',
     about:
-      'Risus massa fames metus lectus diam maecenas dui. Nibh morbi id purus eget tellus diam, blandit. Ac condimentum a nisl sagittis, interdum. Et viverra maecenas quis cras sed gravida volutpat cursus enim.'
+      'Leverage our secure and scalable web solutions to enhance customer experience, streamline operations, and meet regulatory compliance in the finance and insurance sectors.'
   },
   {
     image: industry2,
-    name: 'Startup and technology',
+    name: 'Startup and Technology',
     about:
-      'Interdum amet lobortis viverra et sapien aliquam nunc amet. Bibendum eu pellentesque sit risus leo commodo. Nibh dictum tellus lectus in risus eget cursus vitae nisi lacinia aliquam utuismod cras pellentesque.'
+      'Empower your startup with innovative technology solutions that help you launch faster, scale efficiently, and capture market share with agility.'
   },
   {
     image: industry3,
     name: 'E-commerce',
     about:
-      'Egestas nunc eleifend lacinia suspendisse bibendum ultrices risus. Facilisis neque eleifend diam orci id. Iaculis dignissim sed malesuada porttitor ac iaculis nullam donec sed volutpat quis vulputate sollicitudin tincidunt.'
+      'Boost your online sales with our e-commerce solutions designed to offer seamless user experiences, robust security, and easy integration with payment gateways and third-party services.'
   }
 ]
-
-const categories: string[] = ['Mobile App', 'Landing Page', 'Web App']
 
 export const featureProjectData: ProjectType[] = [
   {
     image: project1,
     category: categories[0],
-    title: 'Task management app',
+    title: 'Task Management App for Increased Productivity',
     description:
-      'Odio mus adipiscing nunc sed viverra massa aliquam sit vestibulum maecenas arcu adipiscing tincidunt at velit pharetra varius sit.',
+      'Developed a user-centric task management app that enhances productivity by simplifying task tracking, deadline management, and collaboration.',
     tags: ['Product Strategy', 'Front end Development', 'Systems Design', 'Web Development']
   },
   {
     image: project2,
     category: categories[1],
-    title: 'Landing page for electric scooters',
+    title: 'Engaging Landing Page for Electric Scooters',
     description:
-      'Vitae non luctus rhoncus ipsum feugiat luctus ornare. Pretium nulla sed quis duistristique orci. Odio in pellentesque urna sit facilisi convallis vel tempus.',
+      'Created a dynamic and visually appealing landing page that effectively communicates product value and encourages customer engagement.',
     tags: ['Product Strategy', 'Systems Design', 'Web Development']
   },
   {
     image: project3,
     category: categories[2],
-    title: 'Сrypto market dashboard',
+    title: 'Real-Time Crypto Market Dashboard',
     description:
-      'Donec donec ultricies feugiat imperdiet enim cras eget enim elementum eget ultrices praesent pretium morbi.',
+      'Designed and developed a comprehensive crypto market dashboard that provides real-time data and insights to users, enabling informed decision-making.',
     tags: ['Front end Development', 'Systems Design', 'Web Development']
   }
 ]
 
 export const benefitsData: BenefitType[] = [
   {
-    title: 'Prototype in 24 hrs',
+    title: 'Prototype in 24 Hours',
     description:
-      'Commodo senectus massa est urna mi. Mattis dis arcu aenean libero viverra gravida id Imperdiet elit integer elit.'
+      'Quickly visualize your idea with a working prototype, allowing you to gather feedback and refine your concept in just one day.'
   },
   {
-    title: 'MVP within two weeks',
+    title: 'MVP Delivery in Two Weeks',
     description:
-      'Purus netus eget facilisis morbi pellentesque. Fermentum mi sit a mi ebentot pellentesque.'
+      'Launch a minimum viable product in as little as two weeks to start validating your idea and attracting early adopters.'
   },
   {
-    title: 'Kickstart development',
+    title: 'Kickstart Full Development',
     description:
-      'Purus netus eget facilisis morbi pellentesque. Fermentum mi sit a mi ebentot pellentesque.'
+      'Transition seamlessly from concept to full-scale development with our expert team, turning your vision into a reality.'
   },
   {
-    title: '24/7 Tech support',
+    title: '24/7 Technical Support',
     description:
-      'Commodo senectus massa est urna mi. Mattis dis arcu aenean libero viverra gravida id Imperdiet elit integer elit.'
+      'Enjoy peace of mind with our around-the-clock technical support, ensuring that your website or application is always up and running.'
   }
 ]
-
-export const brandData: BrandType[] = [
-  {
-    image: brand1SvgImg
-  },
-  {
-    image: brand2SvgImg
-  },
-  {
-    image: brand3SvgImg
-  },
-  {
-    image: brand4SvgImg
-  }
-]
-
-const blogCategories: string[] = ['Business', 'Digital', 'Development']
 
 export const blogData: BlogType[] = [
   {
     image: blog5,
     category: blogCategories[0],
     time: '12 hours ago',
-    title: 'How to check the website before releasing?'
+    title: 'Essential Checklist for Website Launch: Best Practices'
   },
   {
     image: blog7,
     category: blogCategories[1],
     time: '11 hours ago',
-    title: 'Inclusive Marketing: Why and How Does it Work?'
+    title: 'The Power of Inclusive Marketing in Digital Spaces'
   },
   {
     image: blog8,
     category: blogCategories[1],
     time: '10 hours ago',
-    title: 'Your Guide to Optimising A JavaScript-enabled Website'
+    title: 'Optimizing Your JavaScript-enabled Website for Performance'
   }
 ]

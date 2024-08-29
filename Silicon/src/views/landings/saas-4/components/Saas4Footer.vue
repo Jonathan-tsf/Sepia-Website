@@ -8,10 +8,8 @@
             Sepia
           </div>
           <p class="text-body mb-0">
-            Suscipit ipsum tincidunt pellentesque vitae. Porttitor pellentesque enim consequat
-            faucibus fermentum duis mollis facilisis pretium justo velit pretium nec ut imperdiet
-            volutpat commodo facilisis.
-          </p>
+  Sepia is dedicated to innovation and excellence, providing a range of digital solutions that enhance user experiences and drive business growth. Our commitment to quality and customer satisfaction is at the core of everything we do, empowering clients to achieve their goals through cutting-edge technology.
+</p>
         </b-col>
         <b-col md="6" xxl="5" class="offset-lg-1 offset-xl-2 offset-xxl-3">
           <b-row class="row-cols-1 row-cols-sm-2">
@@ -21,7 +19,7 @@
                 <li>
                   <a href="tel:4065550120" class="nav-link fs-lg fw-normal px-0 py-1">
                     <Icon :icon="PhoneCallIcon" class="bx fs-4 me-2"></Icon>
-                    (406)&nbsp;555&#8209;0120
+                    (514) 863-1572
                   </a>
                 </li>
                 <li>
@@ -63,26 +61,8 @@
               </div>
             </b-col>
             <b-col class="ps-sm-4 ps-md-5">
-              <h3 class="h5 pb-1 pb-sm-2 pb-lg-3">Country</h3>
-              <b-dropdown class="nav" menu-class="my-1" toggle-class="p-0 d-flex justify-content-start btn-link nav-link fs-lg fw-normal px-0 py-1" variant="link">
-                <template v-slot:button-content>
-                    <img :src="enImg" class="me-2" width="20" alt="USA" />
-                    USA
-                </template>
-
-                <b-dropdown-item class="fs`-base pb-1">
-                  <img :src="frImg" class="me-2" width="20" alt="France" />
-                  France
-                </b-dropdown-item>
-                <b-dropdown-item class="fs-base pb-1">
-                  <img :src="deImg" class="me-2" width="20" alt="Germany" />
-                  Germany
-                </b-dropdown-item>
-                <b-dropdown-item class="fs-base pb-1">
-                  <img :src="itImg" class="me-2" width="20" alt="Italy" />
-                  Italy
-                </b-dropdown-item>
-              </b-dropdown>
+            
+            
             </b-col>
           </b-row>
         </b-col>

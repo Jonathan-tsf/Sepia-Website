@@ -3,9 +3,9 @@ import LikeIcon from '@iconify/icons-bx/bx-like'
 import TimeFiceIcon from '@iconify/icons-bx/bx-time-five'
 import GropuIcon from '@iconify/icons-bx/bx-group'
 
-import industry1 from '@/assets/img/landing/financial/industries/01.jpg'
-import industry2 from '@/assets/img/landing/financial/industries/02.jpg'
-import industry3 from '@/assets/img/landing/financial/industries/03.jpg'
+import industry1Img from '@/assets/img/landing/software-agency-3/industries/01.jpg'
+import industry2Img from '@/assets/img/landing/software-agency-3/industries/02.jpg'
+import industry3Img from '@/assets/img/landing/software-agency-3/industries/03.jpg'
 
 import brand1SvgImg from '@/assets/img/brands/01.svg'
 import brand2SvgImg from '@/assets/img/brands/02.svg'
@@ -66,24 +66,42 @@ export const featureData: FeatureType[] = [
   }
 ]
 
+
 export const industryData: IndustryType[] = [
   {
-    image: industry1,
-    name: 'Transportation & Logistics',
+    image: industry1Img,
+    name: 'Health and Wellness',
     about:
-      'Risus massa fames metus lectus diam maecenas dui. Nibh morbi id purus eget tellus diam, integer blandit. Ac condimentum a nisl sagittis, interdum. Et viverra maecenas quis cras sed gravida volutpat, cursus enim. Enim ut nulla netus porta lacus diam. Et enim ultrices nunc, nunc. In iaculis venenatis at sit.'
+      'Transform your digital presence in the health and wellness sector with our intuitive website solutions. From fitness tracking apps to wellness blogs, we create platforms that inspire and engage users, promoting a healthier lifestyle.'
   },
   {
-    image: industry2,
-    name: 'Startup and technology',
+    image: industry2Img,
+    name: 'Personal Coaching',
     about:
-      'Nunc, amet et, et at habitant. Eget quis justo, metus at metus sapien. Urna quisque rutrum pharetra pulvinar vitae quam blandit non. Orci tempor cursus egestas quis orci at nisi maecenas. Enim in ultrices tortor, nibh quis sollicitudin tellus non maecenas. In libero ut semper nunc magna tortor.'
+      'Expand your reach and connect with clients effectively using our tailored solutions for personal coaches. Our websites and apps provide seamless scheduling, virtual coaching sessions, and personalized client engagement tools.'
   },
   {
-    image: industry3,
+    image: industry3Img,
     name: 'E-commerce',
     about:
-      'Vivamus nisl sit volutpat laoreet ligula et. Nunc, duis est justo, cras ipsum vulputate eget tellus augue. Amet, sagittis ut enim nisl commodo, pharetra. Sapien imperdiet tristique interdum aliquet varius vitae facilisis vel. Erat convallis eget elit eget iaculis. Morbi id facilisis ligula odio sed amet suspendisse duis aliquet. Justo quam convallis id sed.'
+      'Boost your online sales with our customized e-commerce solutions. Our platforms are designed to provide a seamless shopping experience, integrate with multiple payment gateways, and support robust inventory management.'
+  },
+  {
+    image: industry1Img, // Réutilisation de l'image pour exemple
+    name: 'Lifestyle and Fashion',
+    about:
+      'Capture the essence of your brand with stunning websites and applications designed for the lifestyle and fashion industry. Our solutions focus on visual appeal, user experience, and easy content management to showcase your style effectively.'
+  }
+]
+
+const userData: UserType[] = [
+  {
+    image: avatar9Img,
+    name: 'Esther Howard'
+  },
+  {
+    image: avatar9Img,
+    name: 'Esther Howard'
   }
 ]
 

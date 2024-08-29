@@ -21,7 +21,7 @@
           </li>
           <li class="d-flex mb-3">
             <Icon :icon="PhonecallIcon" class="bx text-muted fs-xl mt-1 me-2"></Icon>
-            (406) 555-0120
+            (514) 863-1572
           </li>
           <li class="d-flex mb-3">
             <Icon :icon="TimeIcon" class="bx text-muted fs-xl mt-1 me-2"></Icon>

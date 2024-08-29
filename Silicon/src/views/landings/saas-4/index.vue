@@ -5,15 +5,12 @@
 
   <Feature />
 
+  <Pricing />
+
   <Industries />
 
-  <Integration />
 
   <Opportunities />
-
-  <Blog />
-
-  <Pricing />
 
   <Saas4Footer />
 
