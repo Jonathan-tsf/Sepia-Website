@@ -94,17 +94,6 @@ export const industryData: IndustryType[] = [
   }
 ]
 
-const userData: UserType[] = [
-  {
-    image: avatar9Img,
-    name: 'Esther Howard'
-  },
-  {
-    image: avatar9Img,
-    name: 'Esther Howard'
-  }
-]
-
 export const brandsData: BrandType[] = [
   {
     image: brand1SvgImg
