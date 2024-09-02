@@ -51,7 +51,7 @@
           </div>
 
           <!-- Hotspot -->
-          <div class="d-flex align-items-center position-absolute" style="top: 26.8%; right: 49.9%">
+          <div class="d-flex align-items-center position-absolute" style="top: 26.8%; right: 10.9%">
             <div class="fs-xl text-white opacity-70 me-3 text-end d-none d-md-block">
               Advanced<br />Analytics
             </div>
@@ -79,7 +79,7 @@
           </div>
 
           <!-- Hotspot -->
-          <div class="d-flex align-items-center position-absolute" style="top: 62%; right: 74.5%">
+          <div class="d-flex align-items-center position-absolute" style="top: 62%; right: 100%">
             <div class="fs-xl text-white opacity-70 me-3 text-end d-none d-md-block">
               Secure Data Handling
             </div>

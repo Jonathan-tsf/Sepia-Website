@@ -5,20 +5,7 @@
       <b-row>
         <!-- Cursor parallax -->
         <b-col md="" class="offset-xl-1 order-md-2">
-          <Parallax custom-class="parallax" :custom-style="{ maxWidth: '746px' }">
-            <div class="parallax-layer" data-depth="0.1">
-              <img :src="mobileApp1Img" alt="Chatbot on Mobile" />
-            </div>
-            <div class="parallax-layer" data-depth="0.3">
-              <img :src="mobileApp2Img" alt="Chatbot on Mobile" />
-            </div>
-            <div class="parallax-layer" data-depth="-0.1">
-              <img :src="mobileApp3Img" alt="Chatbot on Mobile" />
-            </div>
-            <div class="parallax-layer" data-depth="0.2">
-              <img :src="mobileApp4Img" alt="Chatbot on Mobile" />
-            </div>
-          </Parallax>
+
         </b-col>
 
         <!-- Text + Action buttons -->
@@ -28,7 +15,6 @@
             Our AI-powered chatbot is available on smartphones and smart watches, offering real-time, personalized interactions with your customers in over 80 languages.
           </p>
           <div class="d-flex justify-content-center justify-content-md-start">
-
           </div>
         </b-col>
       </b-row>
