@@ -1,6 +1,6 @@
 <template>
   <b-container class="mb-5 pt-lg-2 pt-xl-4 pb-2 pb-md-3 pb-lg-5">
-    <h2 class="h1 mb-4 text-center">Our Projects</h2>
+    <h2 class="h1 mb-4 text-center">What we Do</h2>
     <p class="mb-4 mx-auto pb-3 fs-lg text-center" style="max-width: 636px">
       Sepia enriches digital platforms by integrating custom Intelligent Assistant solutions, enhancing user interaction and engagement
     </p>

@@ -32,7 +32,10 @@
             <p class="mb-4 mx-md-0 mx-auto pb-xl-3 pb-lg-2 fs-lg" style="max-width: 30.5rem">
               Take your online presence to the next level with our cutting-edge website development services. We create modern, responsive, and user-friendly websites tailored to your business needs.
             </p>
-            <a href="#" class="btn btn-lg btn-primary">Contact Us</a>
+            <!-- Adding buttons side by side -->
+            <a href="/sepia/pages/contacts-3" class="btn btn-lg btn-primary me-3">Contact Us</a>
+            <a href="https://sepiarestaurant.netlify.app/" class="btn btn-lg btn-secondary"
+            style="border-color: #6c757d; color: #6c757d;">See a Demo Site</a>
           </div>
           
           <ul
@@ -94,7 +97,7 @@
 
 <script lang="ts" setup>
 import heroBg from '@/assets/img/landing/saas-4/hero-bg.png'
-import heroImg from '@/assets/img/landing/saas-4/hero-img.jpg'
+import heroImg from '@/assets/img/landing/saas-4/hero-img.png'
 import { Icon } from '@iconify/vue'
 import CheckCircleIcon from '@iconify/icons-bx/bx-check-circle'
 </script>

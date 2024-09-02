@@ -8,16 +8,12 @@
       <b-row class="row-cols-1 row-cols-md-2 pt-2 pt-md-3 pb-5 mb-md-2 mb-lg-4">
         <b-col class="mb-4">
           <h2 class="h1 mb-0">
-            User-friendly electric <span class="text-primary">scooter</span> designed exceptionally
-            for <span class="text-primary">sharing</span>
+            Intelligent <span class="text-primary">Chatbot</span> tailored for <span class="text-primary">Your Business</span>
           </h2>
         </b-col>
         <b-col>
           <p class="fs-xl mb-0">
-            With a seamless form and swanlike silhouette, our scooter is designed to change
-            micro-mobility forever. We engineered every element around the comfort of our riders,
-            putting the vehicle through rigorous testing to verify its safety and durability in all
-            environments.
+            Our chatbot solution integrates seamlessly into your website, providing personalized interactions and support in over 80 languages. Designed to enhance user experience, it adapts to your business needs, offering reliable and engaging conversations with your customers.
           </p>
         </b-col>
       </b-row>
@@ -30,7 +26,7 @@
           style="background-color: rgba(255, 255, 255, 0.04)"
         ></div>
         <div class="position-relative zindex-2 mx-auto" style="max-width: 852px">
-          <img :src="scooterImg" class="d-block" alt="Scooter" />
+          <img :src="scooterImg" class="d-block" alt="Chatbot Features" />
 
           <!-- Hotspot -->
           <div class="d-flex align-items-center position-absolute top-0" style="left: 61.7%">
@@ -39,14 +35,14 @@
             >
               1
             </div>
-            <div class="fs-xl text-white opacity-70 ms-3 d-none d-md-block">GPS / GSM enabled</div>
-            <div class="fs-sm text-white opacity-70 ms-2 d-md-none">GPS / GSM enabled</div>
+            <div class="fs-xl text-white opacity-70 ms-3 d-none d-md-block">Multilingual Support</div>
+            <div class="fs-sm text-white opacity-70 ms-2 d-md-none">Multilingual Support</div>
           </div>
 
           <!-- Hotspot -->
           <div class="d-flex align-items-center position-absolute" style="top: 3.2%; right: 68.3%">
-            <div class="fs-xl text-white opacity-70 me-3 d-none d-md-block">Urban design</div>
-            <div class="fs-sm text-white opacity-70 me-2 d-md-none">Urban design</div>
+            <div class="fs-xl text-white opacity-70 me-3 d-none d-md-block">Customizable UI</div>
+            <div class="fs-sm text-white opacity-70 me-2 d-md-none">Customizable UI</div>
             <div
               class="btn btn-icon btn-primary bg-transparent fs-lg text-white fw-bold rounded-circle pe-none"
             >
@@ -57,10 +53,10 @@
           <!-- Hotspot -->
           <div class="d-flex align-items-center position-absolute" style="top: 26.8%; right: 49.9%">
             <div class="fs-xl text-white opacity-70 me-3 text-end d-none d-md-block">
-              Long-lasting<br />battery
+              Advanced<br />Analytics
             </div>
             <div class="fs-sm text-white opacity-70 me-2 text-end d-md-none">
-              Long-lasting<br />battery
+              Advanced<br />Analytics
             </div>
             <div
               class="btn btn-icon btn-primary bg-transparent fs-lg text-white fw-bold rounded-circle pe-none"
@@ -77,17 +73,17 @@
               4
             </div>
             <div class="fs-xl text-white opacity-70 ms-3 d-none d-md-block">
-              Anti-theft<br />encryption
+              AI-Powered<br />Conversations
             </div>
-            <div class="fs-sm text-white opacity-70 ms-2 d-md-none">Anti-theft<br />encryption</div>
+            <div class="fs-sm text-white opacity-70 ms-2 d-md-none">AI-Powered<br />Conversations</div>
           </div>
 
           <!-- Hotspot -->
           <div class="d-flex align-items-center position-absolute" style="top: 62%; right: 74.5%">
             <div class="fs-xl text-white opacity-70 me-3 text-end d-none d-md-block">
-              Safety elements
+              Secure Data Handling
             </div>
-            <div class="fs-sm text-white opacity-70 me-2 text-end d-md-none">Safety elements</div>
+            <div class="fs-sm text-white opacity-70 me-2 text-end d-md-none">Secure Data Handling</div>
             <div
               class="btn btn-icon btn-primary bg-transparent fs-lg text-white fw-bold rounded-circle pe-none"
             >
@@ -103,9 +99,9 @@
               6
             </div>
             <div class="fs-xl text-white opacity-70 ms-3 d-none d-md-block">
-              Enhanced motor<br />output
+              Real-time<br />Assistance
             </div>
-            <div class="fs-sm text-white opacity-70 ms-2 d-md-none">Enhanced motor<br />output</div>
+            <div class="fs-sm text-white opacity-70 ms-2 d-md-none">Real-time<br />Assistance</div>
           </div>
         </div>
       </div>
@@ -114,5 +110,5 @@
 </template>
 
 <script setup lang="ts">
-import scooterImg from '@/assets/img/landing/startup/scooter.png'
+import scooterImg from '@/assets/img/landing/startup/scooter.png';
 </script>

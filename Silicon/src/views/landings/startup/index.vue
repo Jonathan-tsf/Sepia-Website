@@ -7,13 +7,8 @@
 
   <Hotspots />
 
-  <Work />
 
   <Cta />
-
-  <RegistraionCard />
-
-  <Benefits />
 
   <StartupFooter />
 

@@ -10,7 +10,7 @@
         <hr />
         <div class="d-flex justify-content-center justify-content-md-between pt-4 pt-lg-5">
           <div class="mx-3 mx-md-0">
-            <div class="display-3 text-dark mb-1">95%</div>
+            <div class="display-3 text-dark mb-1">100%</div>
             <span>Client Satisfaction Rate</span>
           </div>
           <div class="mx-3 mx-md-0">

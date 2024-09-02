@@ -1,5 +1,4 @@
 <template>
-  <link rel="stylesheet" href="http://3.87.232.54/static/css/styles.css">
   <div>
     <Jarallax
       custom-class="jarallax position-relative d-flex align-items-center min-vh-100 bg-light mb-5 py-lg-5 pt-5"

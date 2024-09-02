@@ -16,6 +16,8 @@ import brand6SvgImg from '@/assets/img/brands/06.svg'
 
 import list1 from '@/assets/img/portfolio/list/01.png'
 import list2 from '@/assets/img/portfolio/list/02.jpg'
+import list3 from '@/assets/img/landing/saas-4/about/01.png'
+
 
 import avatar1 from '@/assets/img/testimonials/01.jpg'
 import avatar2 from '@/assets/img/testimonials/02.jpg'
@@ -92,15 +94,23 @@ export const listData: ListType[] = [
   },
   {
     image: list2,
-    date: 'Nov 9, 2023',
-    title: 'Riley - Your Virtual CV',
+    date: 'Nov 25, 2023',
+    title: 'Virtual Assistant Integration',
     category: categories2[1],
     description:
-      'Riley transforms the job application process with a personalized virtual CV creation experience. By leveraging advanced Intelligent Assistant technology, Riley guides users through the CV crafting process, ensuring a professional and compelling presentation of skills and experiences. This approach not only simplifies the task of CV writing but also empowers job seekers with a tool that stands out in the competitive job market, making first impressions count.',
+      'Our Virtual Assistant Integration project leverages the latest technologies to provide businesses with a powerful virtual assistant that seamlessly integrates into their existing websites. This project focuses on enhancing user interaction and providing personalized, real-time support, ensuring that businesses can offer an improved customer service experience directly through their digital platforms.',
+    link: { name: 'pages.single-project' }
+  },
+  {
+    image: list3,
+    date: 'Dec 1, 2023',
+    title: 'Advanced Website Creation',
+    category: categories2[2],
+    description:
+      'This project showcases our expertise in website creation using the latest technologies. We offer a comprehensive solution that includes modern design principles, responsive layouts, and robust backend integrations, tailored to meet the specific needs of each client. Our goal is to deliver websites that are not only visually appealing but also optimized for performance, scalability, and user experience.',
     link: { name: 'pages.single-project' }
   }
 ]
-
 
 export const servicesData: ServiceType[] = [
   {

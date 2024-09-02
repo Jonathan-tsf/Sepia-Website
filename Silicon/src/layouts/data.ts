@@ -17,7 +17,7 @@ export const navbarLinkData: NavLinkType[] = [
   },
   {
     title: 'Meet your Virtual Assistant',
-    link: { name: 'landings.saas-3' }
+    link: { name: 'landings.startup' }
   },
   {
     title: 'Discover Olivia',

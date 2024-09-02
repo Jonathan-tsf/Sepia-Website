@@ -16,14 +16,16 @@
             <p class="mb-4 pb-lg-3">
               Our websites feature the latest design trends to ensure your business stands out. From sleek layouts to engaging visuals, we craft websites that are both aesthetically pleasing and functional.
             </p>
-            <a href="#" class="btn btn-primary">Discover More</a>
+            <a href="https://sepiarestaurant.netlify.app/" class="btn btn-lg btn-secondary"
+            style="border-color: #6c757d; color: #6c757d;">See a Demo Site</a>
           </b-col>
           <b-col lg="6" md="7" class="mt-4 pt-md-0 pt-2">
             <img
-              src="@/assets/img/landing/saas-4/about/01.png"
-              class="d-block my-lg-2 mx-auto me-md-0"
-              width="595"
+              :src="heroImg"
+              width="1122"
               alt="Modern Website Design"
+              class="rounded-4"
+              style="box-shadow: 0 0 7.5rem rgba(0, 0, 0, 0.1)"
             />
           </b-col>
         </b-row>
@@ -51,11 +53,10 @@
                 Empower your business with tools designed for growth and scalability.
               </p>
             </div>
-            <a href="#" class="btn btn-primary">Learn More</a>
           </b-col>
-          <b-col lg="5" md="6" class="mt-4 pt-md-0 pt-2">
+          <b-col lg="4" md="4" class="mt-4 pt-md-0 pt-2 ms-5">
             <img
-              src="@/assets/img/landing/saas-4/about/02.png"
+              src="@/assets/img/landings.png"
               class="d-block my-lg-2 mx-auto me-md-0 rounded-3"
               width="595"
               alt="Advanced Functionality"
@@ -93,9 +94,10 @@
           <b-col lg="6" md="7" class="mt-4 pt-md-0 pt-2">
             <img
               src="@/assets/img/landing/saas-4/about/03.png"
-              class="d-block my-lg-2 mx-auto me-md-0 rounded-3"
-              width="595"
-              alt="Performance Optimization"
+              width="1122"
+              alt="Modern Website Design"
+              class="rounded-4"
+              style="box-shadow: 0 0 7.5rem rgba(0, 0, 0, 0.1)"
             />
           </b-col>
         </b-row>
@@ -110,4 +112,5 @@ import StarIcon from '@iconify/icons-bx/bx-star'
 import BriefcaseAltIcon from '@iconify/icons-bx/bx-briefcase-alt-2'
 import BarChartAltIcon from '@iconify/icons-bx/bx-bar-chart-alt-2'
 import CheckCircleIcon from '@iconify/icons-bx/bx-check-circle'
+import heroImg from '@/assets/img/landing/saas-4/about/01.png'
 </script>

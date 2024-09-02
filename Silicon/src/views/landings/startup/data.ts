@@ -1,83 +1,83 @@
-import scooterImg from '@/assets/img/landing/startup/icons/riding-scooter.svg'
-import diamondImg from '@/assets/img/landing/startup/icons/diamond.svg'
-import planetImg from '@/assets/img/landing/startup/icons/planet.svg'
-import step1Img from '@/assets/img/landing/startup/steps/01.svg'
-import step2Img from '@/assets/img/landing/startup/steps/02.svg'
-import step3Img from '@/assets/img/landing/startup/steps/03.svg'
-import step4Img from '@/assets/img/landing/startup/steps/04.svg'
-import mobileImg from '@/assets/img/landing/startup/icons/mobile.svg'
-import handImg from '@/assets/img/landing/startup/icons/hand.svg'
-import smileyImg from '@/assets/img/landing/startup/icons/smiley.svg'
+import scooterImg from '@/assets/img/landing/startup/icons/smiley.svg';
+import diamondImg from '@/assets/img/landing/startup/icons/diamond.svg';
+import planetImg from '@/assets/img/landing/startup/icons/planet.svg';
+import step1Img from '@/assets/img/landing/startup/steps/01.svg';
+import step2Img from '@/assets/img/landing/startup/steps/02.svg';
+import step3Img from '@/assets/img/landing/startup/steps/03.svg';
+import step4Img from '@/assets/img/landing/startup/steps/04.svg';
+import mobileImg from '@/assets/img/landing/startup/icons/mobile.svg';
+import handImg from '@/assets/img/landing/startup/icons/hand.svg';
+import smileyImg from '@/assets/img/landing/startup/icons/smiley.svg';
 
-import type { FeatureType, ProcessType, BenefitType } from './type'
+import type { FeatureType, ProcessType, BenefitType } from './type';
 
 export const featureData: FeatureType[] = [
   {
     image: scooterImg,
-    title: 'Freedom of movement',
+    title: 'Multilingual Support',
     description:
-      'Integer laoreet aliquam mi, est at vitae, egestas. Nisl proin ipsum dui, sagittis mauris vel arcu lacinia massa.'
+      'Our chatbot seamlessly communicates in over 80 languages, providing a personalized experience for every user, no matter where they are from.'
   },
   {
     image: diamondImg,
-    title: 'Quality & style',
+    title: 'Customizable Responses',
     description:
-      'Nunc aliquam arcu pretium mauris nibh quisque quis. Urna purus fringilla iaculis turpis libero mattis commodo.'
+      'Tailor the chatbot’s responses to align with your brand’s voice and meet specific customer service needs effortlessly.'
   },
   {
     image: planetImg,
-    title: 'Cities made for living',
+    title: 'Global Reach',
     description:
-      'Mattis urna ultricies non amet, purus in auctor non. Odio vulputate ac nibh diam volutpat posuere venenatis.'
+      'Expand your business’s online presence with a chatbot designed to cater to customers from all around the world, ensuring accessibility and engagement.'
   }
-]
+];
 
 export const processData: ProcessType[] = [
   {
     image: step1Img,
-    title: 'Find a scooter nearby',
+    title: 'Add the Chatbot Tag',
     description:
-      'Use the map in the app to find your closest scooter. You can also book it 40 minutes in advance.'
+      'Simply copy and paste the provided HTML tag into your website’s code to start using the chatbot. No complex setup required!'
   },
   {
     image: step2Img,
-    title: 'Start the ride',
+    title: 'Configure Your Preferences',
     description:
-      'To start your ride, scan the QR code with your app and tap on "Start ride". Hit the throttle to go and pull the brakes to slow.'
+      'Use our intuitive dashboard to customize the chatbot’s appearance, language options, and default responses to align with your business needs.'
   },
   {
     image: step3Img,
-    title: 'Enjoy your ride!',
-    description: `When you're riding past traffic, be sure to follow all street signs and laws. Please ride safely and be mindful of where you park. Make sure you're wearing a helmet.`
+    title: 'Deploy and Test',
+    description: `Once configured, deploy the chatbot to your site and test it to ensure it meets your expectations. Make adjustments as necessary through the dashboard.`
   },
   {
     image: step4Img,
-    title: 'Park carefully',
+    title: 'Engage Your Customers',
     description:
-      'After your ride, park the scooter safely and out of the way of pedestrian and car traffic - your community will appreciate it. Finally lock it by tapping on "End ride".'
+      'With the chatbot live, engage your customers in real-time, answering queries and providing support. Enjoy improved customer satisfaction and increased conversions.'
   }
-]
+];
 
 export const benefitData: BenefitType[] = [
   {
     image: mobileImg,
-    title: 'Trial app',
-    description: 'Id mollis consectetur congue egestas egestas suspendisse blandit justo venenatis.'
+    title: 'Easy Integration',
+    description: 'Our chatbot can be easily integrated into any website with a simple HTML tag, making it accessible for businesses of all sizes.'
   },
   {
     image: scooterImg,
-    title: 'High-end scooters',
-    description: 'Mattis urna ultricies non amet, purus in auctor non. Odio vulputate ac nibh.'
+    title: 'Real-time Interaction',
+    description: 'Provide instant support and information to your website visitors, enhancing their experience and increasing engagement.'
   },
   {
     image: handImg,
-    title: 'Lowest price for riding',
-    description: 'Augue pulvinar justo, fermentum fames aliquam accumsan vestibulum non.'
+    title: 'Cost-Effective Solution',
+    description: 'Reduce customer service costs by automating routine interactions, allowing your team to focus on more complex tasks.'
   },
   {
     image: smileyImg,
-    title: 'Happiness guarantee',
+    title: 'Enhanced User Experience',
     description:
-      'A elementum, imperdiet enim, pretium etiam facilisi in aenean quam mauris pretium.'
+      'Offer a friendly and intuitive interface that keeps your customers happy and satisfied, ensuring they return to your site.'
   }
-]
+];
