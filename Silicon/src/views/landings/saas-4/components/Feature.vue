@@ -17,7 +17,7 @@
               Our websites feature the latest design trends to ensure your business stands out. From sleek layouts to engaging visuals, we craft websites that are both aesthetically pleasing and functional.
             </p>
             <a href="https://sepiarestaurant.netlify.app/" class="btn btn-lg btn-secondary"
-            style="border-color: #6c757d; color: #6c757d;">See a Demo Site</a>
+            style="border-color: #6c757d; color: #6c757d;">See a Demo Website</a>
           </b-col>
           <b-col lg="6" md="7" class="mt-4 pt-md-0 pt-2">
             <img

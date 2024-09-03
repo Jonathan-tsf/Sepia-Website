@@ -35,7 +35,7 @@
             <!-- Adding buttons side by side -->
             <a href="/sepia/pages/contacts-3" class="btn btn-lg btn-primary me-3">Contact Us</a>
             <a href="https://sepiarestaurant.netlify.app/" class="btn btn-lg btn-secondary"
-            style="border-color: #6c757d; color: #6c757d;">See a Demo Site</a>
+            style="border-color: #6c757d; color: #6c757d;">See a Demo Website</a>
           </div>
           
           <ul
