@@ -106,7 +106,7 @@ export const demoLandingPagesData: DemoPageType[] = [
   {
     image: saas4Img,
     title: 'SaaS v.4',
-    name: 'landings.saas-4'
+    name: 'landings.website'
   },
   {
     image: saas5Img,

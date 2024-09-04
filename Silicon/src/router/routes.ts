@@ -115,8 +115,8 @@ const landingsRoutes = [
         component: () => import('@/views/landings/saas-3/index.vue')
       },
       {
-        path: '/saas-4',
-        name: 'landings.saas-4',
+        path: '/website',
+        name: 'landings.website',
         meta: {
           title: 'Website | Sepia'
         },
@@ -131,7 +131,7 @@ const landingsRoutes = [
         component: () => import('@/views/landings/saas-5/index.vue')
       },
       {
-        path: '/startup',
+        path: '/virtual-assistant',
         name: 'landings.startup',
         meta: {
           title: 'Startup Landing | Sepia'
@@ -195,7 +195,7 @@ const landingsRoutes = [
         component: () => import('@/views/landings/conference/index.vue')
       },
       {
-        path: '/digital-agency',
+        path: '/home',
         name: 'landings.digital-agency',
         meta: {
           title: 'Digital Agency Landing | Sepia'

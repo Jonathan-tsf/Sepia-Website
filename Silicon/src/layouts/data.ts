@@ -13,7 +13,7 @@ export const navbarLinkData: NavLinkType[] = [
   },
   {
     title: 'Launch Your Website',
-    link: { name: 'landings.saas-4' }
+    link: { name: 'landings.website' }
   },
   {
     title: 'Meet your Virtual Assistant',
