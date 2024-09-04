@@ -94,7 +94,7 @@ const landingsRoutes = [
         path: '/olivia',
         name: 'landings.olivia',
         meta: {
-          title: 'SaaS Landing v.1 | Sepia'
+          title: 'Olivia | Sepia'
         },
         component: () => import('@/views/landings/olivia/index.vue')
       },
@@ -134,7 +134,7 @@ const landingsRoutes = [
         path: '/virtual-assistant',
         name: 'landings.startup',
         meta: {
-          title: 'Startup Landing | Sepia'
+          title: 'Virtual Assistant | Sepia'
         },
         component: () => import('@/views/landings/startup/index.vue')
       },
@@ -198,7 +198,7 @@ const landingsRoutes = [
         path: '/home',
         name: 'landings.digital-agency',
         meta: {
-          title: 'Digital Agency Landing | Sepia'
+          title: 'Home | Sepia'
         },
         component: () => import('@/views/landings/digital-agency/index.vue')
       },
