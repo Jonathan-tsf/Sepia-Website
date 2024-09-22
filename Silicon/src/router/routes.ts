@@ -91,12 +91,20 @@ const landingsRoutes = [
         component: () => import('@/views/landings/product/index.vue')
       },
       {
-        path: '/olivia',
+        path: '/olivia/en',
         name: 'landings.olivia',
         meta: {
           title: 'Olivia | Sepia'
         },
         component: () => import('@/views/landings/olivia/index.vue')
+      },
+      {
+        path: '/olivia/fr',
+        name: 'landings.oliviafr',
+        meta: {
+          title: 'Olivia | Sepia'
+        },
+        component: () => import('@/views/landings/olivia copy/index.vue')
       },
       {
         path: '/saas-2',

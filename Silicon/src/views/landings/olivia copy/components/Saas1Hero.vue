@@ -4,19 +4,17 @@
       <b-container class="pt-lg-3">
         <b-row class="flex-lg-nowrap">
           <b-col lg="6" xl="5" class="text-center text-lg-start pt-5 mt-xl-4">
-            <h1 class="display-4 pt-5 pb-2 pb-lg-3 mt-sm-2 mt-lg-5">
-              
-            Revolutionizing Restaurant Service with Olivia
+            <h1 class="display-5 pt-5 pb-2 pb-lg-3 mt-sm-2 mt-lg-5">    
+              Révolutionnez votre Service avec Olivia, l'IA au Service de vos Clients
             </h1>
             <p class="fs-lg mb-4 mb-lg-5">
-              Experience the future of dining with Olivia, your virtual restaurant assistant. Seamlessly order, interact, and enjoy at the touch of a button – all from the comfort of your table.
+              Plongez dans le futur de la restauration avec Olivia, votre assistante virtuelle. Passez commande, interagissez et savourez, le tout sans bouger de votre table.
             </p>
-            <a  href="/sepia/pages/contacts-3" class="btn btn-primary btn-lg">Contact Us</a>
+            <a  href="/sepia/pages/contacts-3" class="btn btn-primary btn-lg">Contactez Nous</a>
             <div class="pt-5 mt-xl-5">
             </div>
           </b-col>
 
-          <!-- Layer parallax -->
           <!-- Effet Parallax -->
           <b-col md="12" class="offset-xl-1 d-flex mt-lg-4 mb-4">
           <div
@@ -41,6 +39,7 @@
           </div>
         </b-col>
         </b-row>
+        
       </b-container>
     </section>
   </div>
